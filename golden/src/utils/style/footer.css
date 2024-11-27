@@ -1,0 +1,23 @@
+
+.logo {
+    width: 35px;
+    height: 25px;
+    color: rgb(190, 190, 27);
+}
+
+.golden_logo{
+    width: 75px;
+    height: 65px;
+    margin-left: 25px;
+}
+
+#Description{
+    text-align: left;
+    display: flex;
+    background-color: white;
+    margin-top: 50px;
+}
+
+#Inter{
+    margin-left: 12%;
+}

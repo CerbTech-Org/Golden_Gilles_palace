@@ -1,0 +1,66 @@
+.yellow{
+    background-color: black;
+    color: white;
+    width: 270px;
+    height: 40px;
+    border-radius: 30px;
+    opacity: 0.8;
+    text-align: center;
+    padding-top: 15px;
+    position: absolute;
+}
+
+.yellow:hover{
+    background-color: rgb(145, 145, 26);
+}
+
+#formulaire{
+    margin-left: 32%;
+    background-color: #c1c3c7;
+    width: 600px;
+    height: 600px;
+    border-radius: 35px;
+    margin-top: 50px;
+}
+
+.simple{
+    margin-top: 20px;
+    background-color: transparent;
+    border-color: black;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    margin-left: 20px;
+}
+
+.text{
+    margin-top: 20px;
+    margin-left: -150px;
+}
+
+.message{
+    height: 120px;
+    background-color: transparent;
+    border-color: black;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    margin-left: 20px;
+}
+
+#my_form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.title_text{
+    text-align: center;
+    margin-left: 45%;
+    font-size: 25px;
+}
+
+#send_button{
+    margin-top: 10%;
+    margin-left: 41%;
+}
