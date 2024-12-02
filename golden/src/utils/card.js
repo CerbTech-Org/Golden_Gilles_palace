@@ -6,7 +6,7 @@ function Card({title, description, image_src, margin_left, margin_top}){
             marginLeft: margin_left,
             marginTop: margin_top
         }}>
-            <img src={image_src} className='logo'></img>
+            <img src={image_src} className='logoImg'></img>
             <p className='title'>{title}</p>
             <p className='description'>{description}</p>
             <p className='detail'>PLUS DE DETAILS</p>
