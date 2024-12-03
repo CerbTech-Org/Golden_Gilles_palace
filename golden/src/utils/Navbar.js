@@ -11,7 +11,7 @@ function Navbar()
     return(
         <div id="Nav">
             <Link to={"/"}>
-                <p className='firstButton'>Acceuil</p>
+                <p className='firstButton'>Accueil</p>
             </Link>
             <Link to={"/Hebergement"}>
                 <p className='Button'>Hébergement</p>

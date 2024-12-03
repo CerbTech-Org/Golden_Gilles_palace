@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
-import Navbar from './utils/Navbar'
-import Header from './utils/Header'
-import Welcome from './utils/Welcome';
-import Card from './utils/card';
-import tourisme from './assets/tourisme.png'
-import heberg from './assets/hebergement.png'
-import restau from './assets/restauration.png'
-import Hebergement from './utils/hebergement';
-import Description from './utils/footer';
-import ReactDOM from "react-dom/client";
 import Home from './utils/Home';
 import Contact from './utils/Contact';
 import Tourisme from './utils/Tourisme';
+import Hmenu from './utils/Hebergement_menu';
+import Hbb from './utils/Hbb';
 import {
   BrowserRouter,
   Routes, Route,
-  Link
 } from 'react-router-dom';
+import Restauration from './utils/Rest';
+import Hebergement from './utils/hebergement';
 export default function App() {
   return (
     <BrowserRouter>
@@ -26,6 +18,9 @@ export default function App() {
         </Route>
         <Route path="Contact" element={<Contact />} />
         <Route path="Tourisme" element={<Tourisme />} />
+        <Route path="Hebergement" element={<Hbb />} />
+        <Route path="Restauration" element={<Restauration />} />
+        <Route path="Hebergement/Reserver" element={<Hmenu/>}/>
       </Routes>
     </BrowserRouter>
   );

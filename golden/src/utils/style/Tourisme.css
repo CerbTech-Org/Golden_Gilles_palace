@@ -1,19 +1,21 @@
-#my_guide{
-    margin-left: 41%;
-}
-
-.guide_contactor{
-        background-color: black;
-        color: white;
-        width: 270px;
-        height: 40px;
-        border-radius: 30px;
-        opacity: 0.8;
-        text-align: center;
-        padding-top: 15px;
-        position: absolute;
-}
+@media screen and (min-width: 1920px) and (min-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) {
+    #my_guide{
+        margin-left: 41%;
+    }
     
-.guide_contactor:hover{
-    background-color: rgb(145, 145, 26);
+    .guide_contactor{
+            background-color: black;
+            color: white;
+            width: 270px;
+            height: 40px;
+            border-radius: 30px;
+            opacity: 0.8;
+            text-align: center;
+            padding-top: 15px;
+            position: absolute;
+    }
+        
+    .guide_contactor:hover{
+        background-color: rgb(145, 145, 26);
+    }
 }

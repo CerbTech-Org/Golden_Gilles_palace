@@ -10,6 +10,7 @@ import Text from './Text'
 import messa from '../assets/message.png'
 import phone from '../assets/phone.png'
 import local from '../assets/localisation.png'
+
 function Description(){
     return (
         <footer id='Description'>
