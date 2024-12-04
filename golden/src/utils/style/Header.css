@@ -1,5 +1,27 @@
-@media screen and (min-width: 1920px) and (min-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) {
-}
+@media screen and (min-width: 1920px) {
+    .header{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .profil{
+        width: 50px;
+        height: 50px;
+    }
+    
+    #up_navbar{
+        display: flex;
+    }
+    
+    #up_logo{
+        text-align: left;
+        margin-left: 10%;
+    }
+    #up_profil{
+        text-align: right;
+        margin-left: 70%;
+    }
+    }
 
 @media screen and (min-width: 360px) and (max-height: 640px) {
     .header{
@@ -10,12 +32,12 @@
         width: 50px;
         height: auto;
     }
-    
+
     #up_navbar{
         display: flex;
         margin-left: -20px;
     }
-    
+
     #up_logo{
         text-align: left;
         margin-left: 10%;

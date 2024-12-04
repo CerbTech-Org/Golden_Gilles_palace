@@ -1,5 +1,4 @@
-@media screen and (min-width: 1920px) and (min-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) {
-
+@media screen and (min-width: 1920px) {
 
     .welcome_image{
         width: 65%;
@@ -59,6 +58,69 @@
         position: absolute;
         margin-top: -8%;
         margin-left: 55%;
+    }
+    
+    .reserve:hover{
+        background-color: rgb(145, 145, 26);
+    }
+}
+
+@media screen and (min-width: 360px) and (max-height: 640px) {
+    .welcome_image{
+        width: 104%;
+        height: auto;
+        margin-left: -4%;
+        margin-top: 25px;
+        border-radius: 35px;
+    }
+    
+    .chez{
+        font-size: 20px;
+        position: absolute;
+        margin-top: -50%;
+        color: white;
+    }
+    
+    .gille{
+        font-weight: bolder;
+        font-size: 25px;
+        color: rgb(235, 193, 9);
+        position: absolute;
+        margin-top: -40%;
+    }
+    
+    .golden_palace{
+        font-weight: bolder;
+        font-size: 20px;
+        color: rgb(235, 193, 9);
+        font-family: 'Times New Roman', Times, serif;
+        letter-spacing: 5px;
+        transform: scale(.9, 1);
+        position: absolute;
+        margin-top: -30%;
+    }
+    
+    .elegance{
+        color: white;
+        font-weight: bold;
+        font-size: 1px;
+        position: absolute;
+        margin-top: -20%;
+    }
+    
+    .reserve{
+        background-color: black;
+        color: white;
+        width: 30%;
+        height: auto;
+        border-radius: 30px;
+        opacity: 0.8;
+        text-align: center;
+        padding-top: 1%;
+        position: absolute;
+        margin-top: -20%;
+        margin-left: 65%;
+        font-size: 12px;
     }
     
     .reserve:hover{

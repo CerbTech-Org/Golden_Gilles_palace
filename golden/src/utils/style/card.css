@@ -1,4 +1,4 @@
-@media screen and (min-width: 1920px) and (min-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) {
+@media screen and (min-width: 1920px) {
     #card{
         width: 320px;
         height: 450px;
@@ -7,6 +7,7 @@
         letter-spacing: 3px;
         border-radius: 15px;
         margin-top: 50px;
+        margin-left: 12%;
     }
 
     .detail{
@@ -36,5 +37,52 @@
     .logoImg{
         width: 120px;
         height: 100px;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-height: 640px) {
+    #card{
+        width: 65%;
+        height: 350px;
+        background-color:rgba(199, 198, 198, 0.74);
+        line-height: 25px;
+        letter-spacing: 1px;
+        border-radius: 15px;
+        margin-top: 50px;
+        margin-left: 15%;
+    }
+
+    .detail{
+        background-color: black;
+        color: white;
+        width: 45%;
+        height: 30px;
+        border-radius: 30px;
+        opacity: 0.8;
+        text-align: center;
+        padding-top: 12px;
+        position: absolute;
+        margin-left: 50px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 10px;
+    }
+
+    .detail:hover{
+        background-color: rgb(235, 193, 9);
+        position: absolute;
+    }
+    
+    .title{
+        font-weight:500;
+        font-size: 13px;
+    }
+    
+    .logoImg{
+        width: 50px;
+        height: 50px;
+    }
+
+    .description{
+        font-size: 10px;
     }
 }
