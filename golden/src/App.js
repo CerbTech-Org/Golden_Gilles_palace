@@ -9,7 +9,6 @@ import {
   Routes, Route,
 } from 'react-router-dom';
 import Restauration from './utils/Rest';
-import Hebergement from './utils/hebergement';
 export default function App() {
   return (
     <BrowserRouter>

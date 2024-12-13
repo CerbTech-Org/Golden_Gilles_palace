@@ -1,6 +1,6 @@
 import './style/hebergement.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowUp, faArrowDown, faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import {faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import img_o from '../assets/chamber_one.jpg'
 import img_t from '../assets/IMG-20241019-WA0092.jpg'
 import img_th from '../assets/IMG-20241019-WA0091.jpg'
@@ -10,6 +10,7 @@ import img_ts from '../assets/IMG-20241019-WA0082.jpg'
 import img_tse from '../assets/IMG-20241019-WA0086.jpg'
 import img_thei from '../assets/IMG-20241019-WA0085.jpg'
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 function Hebergement(){
     var diapo = [img_o, img_t, img_tc, img_th, img_tf, img_ts, img_tse, img_thei]
     function moins(){
@@ -28,30 +29,21 @@ function Hebergement(){
     return(
         <div>
         <div id='heberg'>
-            <p style={{
-                marginLeft: 300,
-                fontSize: 40,
-                fontWeight: 'bold'
-            }}>Nos hébergements</p>
+            <p className='heberg_text'>Nos hébergements</p>
             <div id='arrow'>
                 <FontAwesomeIcon onClick={moins} color='white' icon={faArrowLeft} id='left'/>
                 <FontAwesomeIcon onClick={plus} color='white' icon={faArrowRight} id='right'/>
             </div>
         </div>
             <figure>
-                <img className='img_diapo' src={diapo[num]}></img>
+                <img alt='img_diapo' className='img_diapo' src={diapo[num]}></img>
                 <figcaption className='border'></figcaption>
             </figure>
             <div id='foot'>
-                <p style={{
-                    fontSize: 40,
-                    fontWeight: 'bold',
-                    marginLeft: 470,
-                    marginTop: -76,
-                    color: 'white',
-                    zIndex: 1
-                }}>CHAMBRE DOUBLE</p>
-                <p className='reserv'>VOIR LES DETAILS</p>
+                <p className='chambredouble'>CHAMBRE DOUBLE</p>
+                <Link to="/Hebergement">
+                    <p className='reserv'>VOIR LES DETAILS</p>
+                </Link>
             </div>
         </div>
     )

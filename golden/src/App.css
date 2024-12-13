@@ -3,6 +3,11 @@
   background-color: #dde0e6;
 }
 
+#map {
+  height: 400px;
+  width: 100%;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,5 +40,10 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+@media screen and (min-width: 1920px) {
+  #cardSystem{
+    display: flex;
   }
 }

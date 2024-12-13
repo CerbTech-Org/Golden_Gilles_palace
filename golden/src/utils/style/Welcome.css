@@ -25,7 +25,7 @@
         margin-left: 17%;
     }
     
-    .golden{
+    .golden_palace{
         font-weight: bolder;
         font-size: 40px;
         color: rgb(235, 193, 9);
@@ -65,7 +65,7 @@
     }
 }
 
-@media screen and (min-width: 360px) and (max-height: 640px) {
+@media screen and (min-width: 360px) and (max-width: 640px) {
     .welcome_image{
         width: 104%;
         height: auto;

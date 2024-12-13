@@ -1,15 +1,21 @@
 import './style/card.css'
-
+import { Link, } from 'react-router-dom';
 function Card({title, description, image_src, margin_left, margin_top}){
+    var whe = '';
+            if (title === "Hébergement")
+                whe = "/Hebergement"
+            if (title === "Tourisme")
+                whe = '/tourisme'
+            if (title === "Restauration")
+                whe = 'Restauration'
     return(
-        <div id="card" style={{
-            marginLeft: margin_left,
-            marginTop: margin_top
-        }}>
-            <img src={image_src} className='logoImg'></img>
+        <div id="card">
+            <img src={image_src} className='logoImg' alt='logoImg'></img>
             <p className='title'>{title}</p>
             <p className='description'>{description}</p>
-            <p className='detail'>PLUS DE DETAILS</p>
+            <Link to={whe}>
+                <p id="det" className='detail'>PLUS DE DETAILS</p>
+            </Link>
         </div>
     )
 }

@@ -1,0 +1,66 @@
+import '../App.css';
+import Navbar from './Navbar'
+import Header from './Header'
+import Welcome from './Welcome';
+import Card from './card';
+import tourisme from '../assets/tourisme.png'
+import heberg from '../assets/hebergement.png'
+import restau from '../assets/restauration.png'
+import Hebergement from './hebergement';
+import Description from './footer';
+import Localistn from './local';
+import {APIProvider} from '@vis.gl/react-google-maps'
+function Home(){
+            (g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})({
+              key: "AIzaSyAV-efa76eX9DCJ4mpLaSYh79-b3qT4qzI",
+              v: "weekly",
+            });
+            let map;
+            async function initMap() {
+              var fetch = require('node-fetch');
+              var requestOptions = {
+                method: 'GET',
+              };
+              const apiUrl = 
+              "https://api.geoapify.com/v1/geocode/search?text=38%20Upper%20Montagu%20Street%2C%20Westminster%20W1H%201LJ%2C%20United%20Kingdom&apiKey=b4e3e4c7e954462c96f69b85711e842c"
+              const response = await fetch(apiUrl);
+                const data = await response.json();
+                                      if (data.cod && data.cod !== 200) {
+                          throw new Error(data.message || 'Failed to fetch weather data');
+                      }
+              const position = { lat: data.results[0].lat, lng: data.results[0].lon };
+            const { Map } = await google.maps.importLibrary("maps");
+            const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
+
+            map = new Map(document.getElementById("map"), {
+              zoom: 15,
+              center: position,
+              mapId: "DEMO_MAP_ID",
+            }); 
+            const marker = new AdvancedMarkerElement({
+              map: map,
+              position: position,
+              title: "Uluru",
+            });
+          }
+          initMap()
+          
+    return(
+        <div className="App">
+         <Header/>
+         <Navbar/>
+         <Welcome/>
+         <div id="cardSystem">
+           <Card image_src={heberg} margin_left={350} margin_top={30} title='Hébergement' description='Un choix de chambres etsuites, toutes pensées pour votre confort. Entre raffinement et équipements modernes, découvrez un espace qui vous offre un équilibre parfait entre élégance et détente'/>
+           <Card image_src={restau} margin_left={765} margin_top={-450} title='Restauration' description="Une gastronomie d'exception vous attend. Savoures des plats inspirés des traditions locales et internationales, conçus pour satisfaire les palais les plus exigeants"/>
+           <Card image_src={tourisme} margin_left={1180} margin_top={-450} title='Tourisme' description='Explorez les merveilles locales grâce à nos excursions  et activités. Laissez-nous vous guider à travers une découverte authentique et enrichissante de notre région.'/>
+         </div>
+         <Hebergement/>
+          <div id="map" onLoad={initMap}></div>
+          <Localistn/>
+         <Description/>
+       </div>
+    )
+}
+
+export default Home

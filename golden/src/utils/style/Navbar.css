@@ -34,7 +34,7 @@
         }
 }    
 
-@media screen and (min-width: 360px) and (max-height: 640px) and (orientation: portrait) {
+@media screen and (min-width: 260px) and (orientation: portrait) and (max-width: 640px) {
     #Nav {
         background-color:rgb(58, 49, 49);
         display: flex;
