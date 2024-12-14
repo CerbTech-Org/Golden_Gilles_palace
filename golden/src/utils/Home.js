@@ -19,16 +19,16 @@ import Localistn from './local';
 // async function give_pos(params) {
 
 // const apiUrl = 
-// "https://api.geoapify.com/v1/geocode/search?text=38%20Upper%20Montagu%20Street%2C%20Westminster%20W1H%201LJ%2C%20United%20Kingdom&apiKey=b4e3e4c7e954462c96f69b85711e842c"
+// "https://api.geoapify.com/v1/geocode/search?text=Gilles%20Golden%20Palace&apiKey=b4e3e4c7e954462c96f69b85711e842c"
 // const response = await fetch(apiUrl);
 //   const data = await response.json();
-//                         if (data.cod && data.cod !== 200) {
-//             throw new Error(data.message || 'Failed to fetch weather data');
-//         }
+//       if (data.cod && data.cod !== 200) {
+//         throw new Error(data.message || 'Failed to fetch weather data');
+//       }
 //        alert(data)
 //        console.log(data.query)
 //       const position = { lat: data.results[0].lat, lng: data.results[0].lon };
-// // }
+// }
 // const center = give_pos()
 function Home(){
         // const { isLoaded, loadError } = useLoadScript({
@@ -46,7 +46,7 @@ function Home(){
            <Card image_src={tourisme} margin_left={1180} margin_top={-450} title='Tourisme' description='Explorez les merveilles locales grâce à nos excursions  et activités. Laissez-nous vous guider à travers une découverte authentique et enrichissante de notre région.'/>
          </div>
          <Hebergement/>
-          <div id="map">
+          {/* <div id="map"> */}
             {/* <GoogleMap
                 mapContainerStyle={mapContainerStyle}
                 zoom={10}
@@ -54,8 +54,8 @@ function Home(){
             >
               <Marker position={center} />
             </GoogleMap> */}
-          </div>
-          {/* <Localistn/> */}
+          {/* </div> */}
+          <Localistn/>
          <Description/>
        </div>
     )
