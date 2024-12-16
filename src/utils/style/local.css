@@ -1,4 +1,4 @@
-@media screen and (min-width: 1920px) {    
+@media screen and (min-width: 1920px) and (max-width: 2560px){    
     #the_number{
         display: flex;
         flex-direction: column;
@@ -34,6 +34,44 @@
         background-color: rgb(145, 145, 26);
     }
 }
+
+@media screen and (min-width: 1366px) and (max-width: 1919px){    
+    #the_number{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .callme{
+        background-color: black;
+        color: white;
+        width: 270px;
+        height: 30px;
+        border-radius: 30px;
+        opacity: 0.8;
+        text-align: center;
+        padding-top: 15px;
+    }
+
+    .callme:hover{
+        background-color: rgb(145, 145, 26);
+    }
+
+    .mailme{
+        background-color: black;
+        color: white;
+        width: 270px;
+        height: 30px;
+        border-radius: 30px;
+        opacity: 0.8;
+        text-align: center;
+        padding-top: 15px;
+    }
+    
+    .mailme:hover{
+        background-color: rgb(145, 145, 26);
+    }
+}
+
 
 @media screen and (min-width: 360px) and (max-width: 640px) {
         #the_number{

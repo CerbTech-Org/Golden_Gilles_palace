@@ -8,7 +8,6 @@ export default function Us(){
         emailjs.init('3yD_3mK4P-9lXu5mf');
         document.getElementById('send_button').addEventListener('click', function(event) {
             event.preventDefault();
-            alert('here')
             var t_name = document.getElementById('username')
             var t_email = document.getElementById('useremail')
             var t_message = document.getElementById('usermessage')
@@ -33,7 +32,12 @@ export default function Us(){
                 alert('template name' + templateParams.name)
                 emailjs.send('service_j4t067u', 'template_xenqup4', templateParams)
                 .then(function(response) {
-                    alert('Message sent successfully!');
+                    t_name.value = ""
+                    t_email.value = ""
+                    t_message.value = ""
+                t_email.style.borderColor = 'black';
+                t_message.style.borderColor = 'black';
+                t_name.style.borderColor = 'black';
                     console.log('SUCCESS!', response.status, response.text);
                 }, function(error) {
                     alert('Failed to send message. Please try again.');

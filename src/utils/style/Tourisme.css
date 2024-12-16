@@ -1,4 +1,26 @@
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1920px) and ((max-width: 1920px)) {
+    #my_guide{
+        margin-left: 41%;
+    }
+    
+    .guide_contactor{
+            background-color: black;
+            color: white;
+            width: 270px;
+            height: 40px;
+            border-radius: 30px;
+            opacity: 0.8;
+            text-align: center;
+            padding-top: 15px;
+            position: absolute;
+    }
+        
+    .guide_contactor:hover{
+        background-color: rgb(145, 145, 26);
+    }
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1919px) {
     #my_guide{
         margin-left: 41%;
     }

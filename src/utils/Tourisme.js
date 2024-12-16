@@ -13,7 +13,17 @@ function Tourisme() {
       <Navbar/>
       <h1>Explorer nos merveilles locales</h1>
       <p>Nous mettons à votre disposition des guides touristiques pour vous permettre <br/> d'explorer sereinement les différents sites disponibles  et que vous souhaiterez visiter </p>
-        <MediaQuery minWidth={1920}>
+        <MediaQuery minWidth={1920} maxWidth={2560}>
+          <div>
+              <img src={map} alt='imag'></img>
+          </div>
+          <Link to='https://wa.me/+2299632706'>
+            <div id="my_guide">
+                <p className='guide_contactor'>CONTACTER UN GUIDE</p>
+            </div>
+          </Link>
+        </MediaQuery>
+        <MediaQuery minWidth={1366} maxWidth={1919}>
           <div>
               <img src={map} alt='imag'></img>
           </div>

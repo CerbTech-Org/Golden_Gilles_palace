@@ -40,6 +40,49 @@
     }
 }
 
+@media screen and (min-width: 1366px) and (max-width: 1919px) {
+    #card{
+        width: 320px;
+        height: 450px;
+        background-color:rgba(199, 198, 198, 0.74);
+        line-height: 25px;
+        letter-spacing: 3px;
+        border-radius: 15px;
+        margin-top: 50px;
+        margin-left: 7%;
+    }
+
+    .detail{
+        background-color: black;
+        color: white;
+        width: 220px;
+        height: 30px;
+        border-radius: 30px;
+        opacity: 0.8;
+        text-align: center;
+        padding-top: 12px;
+        position: absolute;
+        margin-left: 50px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    .detail:hover{
+        background-color: rgb(235, 193, 9);
+        position: absolute;
+    }
+    
+    .title{
+        font-weight:500;
+        font-size: 25px;
+    }
+    
+    .logoImg{
+        width: 120px;
+        height: 100px;
+    }
+}
+
+
 @media screen and (min-width: 360px) and (max-width: 660px) {
     #card{
         width: 65%;

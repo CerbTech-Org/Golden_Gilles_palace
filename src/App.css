@@ -42,7 +42,14 @@
     transform: rotate(360deg);
   }
 }
-@media screen and (min-width: 1920px) {
+
+@media screen and (min-width: 1920px) and (max-width:2560px){
+  #cardSystem{
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1366px) and (max-width:1919px){
   #cardSystem{
     display: flex;
   }
