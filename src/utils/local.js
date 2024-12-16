@@ -44,9 +44,9 @@ function Localistn(){
                             }} src={phone} alt='phone'></img>
                             <p>+229 0196327060 <br/> +229 0140464663</p>
                         </div>
-                        <Link to='https://wa.me/+2290146466126?text=Bonjour%20Gilles%20Golden%20Palace%20Je%20vous%20contacte%20depuis%20votre%20site%20officiel' target='_blank' rel='noopener noreferrer' style={{
+                        <Link to='https://wa.me/+22946466126?text=Bonjour%20Gilles%20Golden%20Palace%20Je%20vous%20contacte%20depuis%20votre%20site%20officiel' target='_blank' rel='noopener noreferrer' style={{
                             textDecoration: 'none'
-                        }}>
+                        }}> 
                             <div>
                             <p className='callme'>APPELER</p>
                             </div>
@@ -106,7 +106,7 @@ function Localistn(){
                             }} src={phone} alt='phone'></img>
                             <p>+229 0196327060 <br/> +229 0140464663</p>
                         </div>
-                        <Link to='https://wa.me/+2290146466126?text=Bonjour%20Gilles%20Golden%20Palace%20Je%20vous%20contacte%20depuis%20votre%20site%20officiel' target='_blank' rel='noopener noreferrer' style={{
+                        <Link to='https://wa.me/+22946466126?text=Bonjour%20Gilles%20Golden%20Palace%20Je%20vous%20contacte%20depuis%20votre%20site%20officiel' target='_blank' rel='noopener noreferrer' style={{
                             textDecoration: 'none'
                         }}>
                             <div>
@@ -171,7 +171,7 @@ function Localistn(){
                             }} src={phone} alt='phone'></img>
                             <p>+229 0196327060 <br/> +229 0140464663</p>
                         </div>
-                        <Link to='https://wa.me/+2290146466126?text=Bonjour%20Gilles%20Golden%20Palace%20Je%20vous%20contacte%20depuis%20votre%20site%20officiel' target='_blank' rel='noopener noreferrer' style={{
+                        <Link to='https://wa.me/+22946466126?text=Bonjour%20Gilles%20Golden%20Palace%20Je%20vous%20contacte%20depuis%20votre%20site%20officiel' target='_blank' rel='noopener noreferrer' style={{
                             textDecoration: 'none'
                         }}>
                             <div>
