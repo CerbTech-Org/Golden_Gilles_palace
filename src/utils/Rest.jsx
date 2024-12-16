@@ -1,10 +1,6 @@
 import '../App.css'
 import MediaQuery from 'react-responsive'
 import React from 'react'
-import MyImage from './alex_work/assets/oignons.jpg'; 
-import Image from './alex_work/assets/patate.jpg'; 
-import ImageMy from './alex_work/assets/douce.jpg'; 
-import ImageM from './alex_work/assets/tomatoes.jpg'; 
 import Navbar from './Navbar';
 import Description from './footer';
 import Header from './Header';

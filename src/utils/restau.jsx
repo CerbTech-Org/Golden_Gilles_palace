@@ -1,9 +1,6 @@
 import '../App.css'
 import MediaQuery from 'react-responsive'
 import React from 'react'
-import Navbar from './Navbar';
-import Description from './footer';
-import Header from './Header';
 import './style/feature.css'
 
 
