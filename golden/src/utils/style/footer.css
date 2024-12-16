@@ -28,7 +28,7 @@
     }
 }
 
-@media screen and (min-width: 360px)  {
+@media screen and (min-width: 360px)  and (max-width: 660px){
     .logo {
         width: 35px;
         height: 25px;
