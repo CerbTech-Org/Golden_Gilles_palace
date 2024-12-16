@@ -1,0 +1,132 @@
+@media screen and (min-width: 1920px) {
+    #my_guide{
+        margin-left: 43%;
+        padding-bottom: 24px;
+    }
+    
+    .guide_contactor{
+            background-color: black;
+            color: white;
+            width: 270px;
+            height: 40px;
+            border-radius: 30px;
+            opacity: 0.8;
+            text-align: center;
+            padding-top: 15px;
+            position: absolute;
+    }
+        
+    .guide_contactor:hover{
+        background-color: rgb(145, 145, 26);
+    }
+    
+    #inter{
+        display: 'flex';
+        flex-direction: 'column';
+    }
+    #inter2{
+        display: 'flex';
+        flex-direction: 'column';
+        width: 400px;
+    }
+    #detAdes{
+        width: 300px;
+        height: 600px;
+        background-color: #c1c3c7;
+        margin-left: 120px;
+    }
+    .firstImage{
+        height: 310px;
+        width: 260px;
+    }
+    .secondImage{
+            height: 280px;
+            width: 260px;
+            margin-top: 10;
+    }
+    .thirdImage{
+        width: 500px;
+        height: 330px;
+    }
+
+    .fourthImage{
+            margin-top: 10px;
+            width: 500px;
+            height: 260px
+    }
+
+    #groupedImage{
+            display: flex;
+            flex-direction: row;
+            width: 1300px;
+            margin-left: 380px;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 640px) {
+    #my_guide{
+        margin-left: 15%;
+        padding-bottom: 24px;
+    }
+    .guide_contactor{
+            background-color: black;
+            color: white;
+            width: 270px;
+            height: 40px;
+            border-radius: 30px;
+            opacity: 0.8;
+            text-align: center;
+            padding-top: 15px;
+            position: absolute;
+            font-size: 15px;
+    }
+        
+    .guide_contactor:hover{
+        background-color: rgb(145, 145, 26);
+    }
+    
+    #inter{
+        display: 'flex';
+        flex-direction: 'column';
+    }
+    
+    #inter2{
+        display: 'flex';
+        flex-direction: 'column';
+        width: 400px;
+    }
+    
+    #detAdes{
+        width: 300px;
+        height: 600px;
+        background-color: #c1c3c7;
+        margin-left: 120px;
+    }
+
+    #ohotoGroupe{
+        display: flex;
+        flex-direction: row;
+        width: 1300px;
+        margin-left: 380px;
+    }
+
+    .firstImage{
+        height: 100px;
+        width: 110px;
+    }
+    .secondImage{
+        height: 130px;
+        width: 110px;
+        margin-top: 10px;
+    }
+    .thirdImage{
+        width: 200px;
+        height: 80px;
+    }
+
+    .fourthImage{
+        margin-top: 10px;
+        width: 200px;
+        height: 60px
+    }
+}

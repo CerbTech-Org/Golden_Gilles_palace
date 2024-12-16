@@ -1,0 +1,109 @@
+@media screen and (min-width: 1920px){
+        #Nav {
+            background-color:rgb(58, 49, 49);
+            display: flex;
+            border-radius: 35px;
+            width: 45%;
+            text-align: center;
+            margin-left: 25%;
+        }
+        
+        .Button {
+            color: white;
+            margin-left: 25px;
+            text-decoration: underline;
+            font-size: 75;
+            font-weight: bold;
+        
+        }
+        
+        .firstButton {
+            font-weight: bold;
+            font-size: 75;
+            color: white;
+            text-decoration: underline;
+            margin-left: 5cm;
+        }
+        
+        .Button:hover{
+            color: yellow;
+        }
+        
+        .firstButton:hover{
+            color: yellow;
+        }
+}    
+
+@media screen and (min-width: 260px) and (orientation: portrait) and (max-width: 640px) {
+    #Nav {
+        background-color:rgb(58, 49, 49);
+        display: flex;
+        border-radius: 35px;
+        width: 90%;
+        text-align: center;
+        margin-left: 5%;
+        font-size: 2px;
+    }
+    
+    .Button {
+        color: white;
+        margin-left: 20px;
+        text-decoration: underline;
+        font-size: 10px;
+        font-weight: bold;
+    
+    }
+    
+    .firstButton {
+        font-weight: bold;
+        font-size: 10px;
+        color: white;
+        text-decoration: underline;
+        margin-left: 5%;
+    }
+    
+    .Button:hover{
+        color: yellow;
+    }
+    
+    .firstButton:hover{
+        color: yellow;
+    }
+}    
+
+@media screen and (min-width: 360px) and (max-height: 640px) and (orientation: landscape){
+    #Nav {
+        background-color:rgb(58, 49, 49);
+        display: flex;
+        border-radius: 35px;
+        width: 90%;
+        text-align: center;
+        margin-left: 5%;
+        font-size: 2px;
+    }
+    
+    .Button {
+        color: white;
+        margin-left: 30px;
+        text-decoration: underline;
+        font-size: 10px;
+        font-weight: bold;
+    
+    }
+    
+    .firstButton {
+        font-weight: bold;
+        font-size: 10px;
+        color: white;
+        text-decoration: underline;
+        margin-left: 95px;
+    }
+    
+    .Button:hover{
+        color: yellow;
+    }
+    
+    .firstButton:hover{
+        color: yellow;
+    }
+}    
