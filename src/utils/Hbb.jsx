@@ -4,6 +4,8 @@ import Header from './Header';
 import Description from './footer';
 import Navbar from './Navbar';
 import { Link } from 'react-router-dom';
+import MediaQuery from 'react-responsive'
+
 export default function Hbb() {
 
   return (
@@ -13,23 +15,18 @@ export default function Hbb() {
       <Header/>
       <Navbar/>
       <div className='content-with-margin'>    <h1 className='content-h1'><br /><br />Nos hébergements</h1><br />
-          <form className='reserveForm'>
-              <div className='form-group'>
-                <label htmlFor="date_a">Date de départ</label><br />
-                <input name="date_a" type= "date" id="date_a"/>
-              </div>
-                <div className='form-group'>
-                <label htmlFor="date">Date d'arrivée</label>
-                <input name="date" type= "date" id="date"/>
-              </div>
-              <div className='form-group'>
-                <label htmlFor="nbr">Nombre d'invités</label>
-                <input name="nbr" type= "number" id="nbr"/>
-              </div>
-              <button type='submit'className='button-custom'>RECHERCHEZ UN LOGEMENT</button>
-          </form>
-          
-          <br /><br /><img src= {ImageM} alt="etudiant parfait" className='image'/>
+            <MediaQuery minWidth={350} maxWidth={475}>
+            <br /><br /><img src= {ImageM} alt="etudiant parfait" className='image1'/>
+            <br /> <br /> 
+            <div className="overlay1"> 
+                <button className="overlay-button_one1">CHAMBRE DOUBLE</button>
+                <Link to={'/Hebergement/Reserver'}>
+                <button className="overlay-button_two2">VOIR LES DÉTAILS</button> 
+                </Link>
+            </div>
+            </MediaQuery>
+            <MediaQuery minWidth={476}>
+            <br /><br /><img src= {ImageM} alt="etudiant parfait" className='image'/>
             <br /> <br /> 
             <div className="overlay"> 
                 <button className="overlay-button_one">CHAMBRE DOUBLE</button>
@@ -37,15 +34,15 @@ export default function Hbb() {
                 <button className="overlay-button_two">VOIR LES DÉTAILS</button> 
                 </Link>
             </div>
-              <br /> <br /> 
+            </MediaQuery>
               <div className="overlay_one">
                     <p className="overlay-button_twox ">Découvrez nos offres exclusives et nos forfaits saisonniers</p>
+              </div>
                   <div className='colored-box'>
                       <p className="pore"> <br />Week-End Romantique</p>
                       <p className="pre"> Valable jusqu'au 31 décembre 2024</p>
                         <p className='pr'> Évadez-vous le temps d'un week-end romantique avec votre moitié
                           <div className="br">
-
                           </div> Le forfait comprend :
                         </p>
                       <br />
@@ -58,7 +55,6 @@ export default function Hbb() {
                       <br />
                       <button className='buonto'>Réserver maintenant</button>
                   </div>
-                  <div className='tour'>
                     <div className='colored-box'>
                       <p className="pore"> <br />Expérience gastronomique</p>
                       <p className="pre"> Disponible toute l'année</p>
@@ -77,9 +73,6 @@ export default function Hbb() {
                       <br />
                       <button className='buonto'>Réserver maintenant</button>
                     </div>
-                  </div>
-                  
-                </div>
           </div>
           <Description/>
         </div>

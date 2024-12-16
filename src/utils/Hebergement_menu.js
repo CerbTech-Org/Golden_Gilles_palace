@@ -14,7 +14,7 @@ function Hmenu() {
       <Header/>
       <Navbar/>
       <h1>CHAMBRE DOUBLE</h1>
-      <MediaQuery deviceWidth={1920} minWidth={1920}>
+      <MediaQuery minWidth={1920}>
         <div id="groupedImage" >
             <div id='inter' style={{
               width: 285
