@@ -10,12 +10,23 @@ function Tourisme() {
   return (
     <div className="App">
       <Header/>
-      <Navbar/>
+      <MediaQuery minWidth={1366} maxWidth={2560}>
+        <Navbar/>
+      </MediaQuery>
       <h1>Explorer nos merveilles locales</h1>
       <p>Nous mettons à votre disposition des guides touristiques pour vous permettre <br/> d'explorer sereinement les différents sites disponibles  et que vous souhaiterez visiter </p>
         <MediaQuery minWidth={1920} maxWidth={2560}>
-          <div>
-              <img src={map} alt='imag'></img>
+          <div style={{
+            marginLeft: '-4%'
+          }}>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.691935297836!2d2.3490732757924153!3d6.433602993557537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1024a900568fb735%3A0x1f0f06e1cd80419e!2sGilles%20Golden%20Palace!5e0!3m2!1sfr!2sbj!4v1734676828643!5m2!1sfr!2sbj"
+              width="50%"
+              height="550"
+              style={{border:0,}} 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade"> 
+            </iframe>
           </div>
           <Link to='https://wa.me/+2299632706'>
             <div id="my_guide">
@@ -24,9 +35,15 @@ function Tourisme() {
           </Link>
         </MediaQuery>
         <MediaQuery minWidth={1366} maxWidth={1919}>
-          <div>
-              <img src={map} alt='imag'></img>
-          </div>
+          <div>  
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.691935297836!2d2.3490732757924153!3d6.433602993557537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1024a900568fb735%3A0x1f0f06e1cd80419e!2sGilles%20Golden%20Palace!5e0!3m2!1sfr!2sbj!4v1734676828643!5m2!1sfr!2sbj"
+                  width="80%" 
+                  height="550"
+                  style={{border:0,}} 
+                  allowfullscreen="" 
+                  loading="lazy" 
+                  referrerpolicy="no-referrer-when-downgrade"> 
+                </iframe></div>
           <Link to='https://wa.me/+2299632706'>
             <div id="my_guide">
                 <p className='guide_contactor'>CONTACTER UN GUIDE</p>
@@ -35,10 +52,14 @@ function Tourisme() {
         </MediaQuery>
         <MediaQuery minWidth={360} maxWidth={640}>
           <div>
-              <img style={{
-                width: 300,
-                height: 300
-              }} src={map} alt="guide"></img>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.691935297836!2d2.3490732757924153!3d6.433602993557537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1024a900568fb735%3A0x1f0f06e1cd80419e!2sGilles%20Golden%20Palace!5e0!3m2!1sfr!2sbj!4v1734676828643!5m2!1sfr!2sbj"
+                        width="80%" 
+                        height="350"
+                        style={{border:0,}} 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"> 
+                    </iframe>
           </div>
           <Link>
           <Link to='https://wa.me/+2299632706'>
@@ -56,7 +77,7 @@ function Tourisme() {
                     textAlign: 'center',
                     paddingTop: 11,
                     position: 'absolute',
-                    marginLeft: '20%'
+                    marginLeft: '15%'
                   }
                 }>CONTACTER UN GUIDE</p>
             </div>

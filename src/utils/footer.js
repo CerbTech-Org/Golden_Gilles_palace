@@ -33,37 +33,41 @@ function Description(){
                 <img src={linkedin} alt="linkedin logo" className='logo'></img>
             </Link>
             </div>
-            <Text Title="Hébergements" el_one="Caractéristique" el_two="Pricing" el_three="Études de cas" el_four="Revoir" el_five="Mise à jour"></Text>
-            <Text Title="Restauration" el_one="Infos" el_two="Contact" el_three="Carrières" el_four="Culture" el_five="Blog"></Text>
-            <Text Title="Tourisme" el_one="Commencer" el_two="Aides" el_three="Etat du serveur" el_four="Report a bug" el_five="Assitance"></Text>
+            <Text Title="Copyrights © tous droits réservés" el_one="Avec Gilles Golden Palace votre satisafaction est une priorité" el_two="" el_three="" el_four="" el_five=""></Text>
             <div id="contactnous">
                 <h1>Contactez-nous</h1>
                 <div style={{
                     display: 'flex',
+                    marginTop: '2%  '
+
                 }}>
                     <img style={{
                         width: 25,
-                        height: 25
-                    }} src={messa} alt='mail'></img>
-                    <p>gillesdohou@gmail.com</p>
+                        height: 25,
+                    }}  src={messa} alt='mail'></img>
+                    <p className='porpi'>gillesdohou@gmail.com</p>
                 </div>  
                 <div style={{
-                    display: 'flex'
+                    display: 'flex',
+                    marginTop: '2%'
                 }}>
                     <img style={{
                         width: 25,
-                        height: 25
+                        height: 25,
+                        marginTop: "-1%"
                     }} src={phone} alt='phone'></img>
-                    <p>+229 00196327060/ +229 0140464663</p>
+                    <p className='porpi'>+229 00196327060/ +229 0140464663</p>
                 </div>
                 <div style={{
-                    display: 'flex'
+                    display: 'flex',
+                    marginTop: '2%'
                 }}>
                     <img style={{
                         width: 25,
-                        height: 25
+                        height: 25,
+                        marginBottom: 5
                     }} src={local} alt='localisation'></img>
-                    <p>Calavi, Rue en face de<br/>PADME ADJAKE à côté de Terre </p>
+                    <p className='porpi'>Calavi, Rue en face de<br/>PADME ADJAKE à côté de Terre </p>
                 </div>
             </div>
         </footer>

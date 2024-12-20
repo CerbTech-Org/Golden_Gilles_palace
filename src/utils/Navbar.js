@@ -3,6 +3,7 @@ import {
     Link, useLocation
   } from 'react-router-dom';
 import { useEffect } from 'react';
+import MediaQuery from 'react-responsive';
 function Navbar()
 {
     const pos = useLocation()
@@ -10,28 +11,28 @@ function Navbar()
     function Loading(){
         if (pos.pathname === "/"){
             const ele = document.getElementById("acc")
-            ele.style.color = "yellow"
+            ele.style.color = "rgb(235, 193, 9)"
         }
         if (pos.pathname === "/Hebergement"){
             const ele = document.getElementById("Heber")
-            ele.style.color = "yellow"
+            ele.style.color = "rgb(235, 193, 9)"
         } 
         if (pos.pathname === "/Hebergement/Reserver"){
             const ele = document.getElementById("Heber")
-            ele.style.color = "yellow"
+            ele.style.color = "rgb(235, 193, 9)"
         }
         if (pos.pathname === "/Restauration"){
             const ele = document.getElementById("Restr")
-            ele.style.color = "yellow"
+            ele.style.color = "rgb(235, 193, 9)"
         }
 
         if (pos.pathname === "/tourisme"){
             const ele = document.getElementById("Trisme")
-            ele.style.color = "yellow"
+            ele.style.color = "rgb(235, 193, 9)"
         }
         if (pos.pathname === "/contact"){
             const ele = document.getElementById("Contct")
-            ele.style.color = "yellow"
+            ele.style.color = "rgb(235, 193, 9)"
         }
     }
     useEffect(() => {

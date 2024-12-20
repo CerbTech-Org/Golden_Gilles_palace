@@ -9,6 +9,7 @@ import restau from '../assets/restauration.png'
 import Hebergement from './hebergement';
 import Description from './footer';
 import Localistn from './local';
+import MediaQuery from 'react-responsive';
 // import { GoogleMap, useLoadScript, Marker } from '@react-google-maps/api';
 // const libraries = ['places'];
 // const mapContainerStyle = {
@@ -31,14 +32,12 @@ import Localistn from './local';
 // }
 // const center = give_pos()
 function Home(){
-        // const { isLoaded, loadError } = useLoadScript({
-        //   googleMapsApiKey: 'AIzaSyAV-efa76eX9DCJ4mpLaSYh79-b3qT4qzI',
-        //   libraries,
-        // });
         return(
         <div className="App">
          <Header/>
-         <Navbar/>
+         <MediaQuery minWidth={1366} maxWidth={2560}>
+            <Navbar/>
+         </MediaQuery>
          <Welcome/>
          <div id="cardSystem">
            <Card image_src={heberg} margin_left={350} margin_top={30} title='Hébergement' description='Un choix de chambres etsuites, toutes pensées pour votre confort. Entre raffinement et équipements modernes, découvrez un espace qui vous offre un équilibre parfait entre élégance et détente'/>
@@ -46,15 +45,6 @@ function Home(){
            <Card image_src={tourisme} margin_left={1180} margin_top={-450} title='Tourisme' description='Explorez les merveilles locales grâce à nos excursions  et activités. Laissez-nous vous guider à travers une découverte authentique et enrichissante de notre région.'/>
          </div>
          <Hebergement/>
-          {/* <div id="map"> */}
-            {/* <GoogleMap
-                mapContainerStyle={mapContainerStyle}
-                zoom={10}
-                center={center}
-            >
-              <Marker position={center} />
-            </GoogleMap> */}
-          {/* </div> */}
           <Localistn/>
          <Description/>
        </div>

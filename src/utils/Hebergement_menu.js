@@ -12,7 +12,9 @@ function Hmenu() {
   return (
     <div className="App">
       <Header/>
-      <Navbar/>
+      <MediaQuery minWidth={1366} maxWidth={2560}>
+        <Navbar/>
+      </MediaQuery>
       <h1>CHAMBRE DOUBLE</h1>
       <MediaQuery minWidth={1920} maxWidth={2560}>
         <div id="groupedImage" >

@@ -1,6 +1,7 @@
 @media screen and (min-width: 1920px) and (max-width: 2560px){
     #heberg{
         display: flex;
+        margin-top: 1.4%;
     }
     
     #left{
@@ -79,12 +80,13 @@
     .heberg_text{
         margin-left: 300px;
         font-size: 40px;
-        font-weight: 'bold'
+        font-weight: 900;
+        margin-top: 2%;
     }
     .chambredouble{
             font-size: 40px;
             font-weight: bold;
-            margin-left: 470px;
+            margin-left: 20%;
             margin-top: -76px;
             color: white;
             z-index: 1;
@@ -94,6 +96,7 @@
 @media screen and (min-width: 1366px) and (max-width: 1919px) {
     #heberg{
         display: flex;
+        margin-top: 1.4%;
     }
     #left{
         background-color: black;
@@ -159,7 +162,8 @@
     .heberg_text{
         margin-left: 200px;
         font-size: 40px;
-        font-weight: 'bold'
+        font-weight: 900;
+
     }
     .chambredouble{
             font-size: 40px;
@@ -175,6 +179,7 @@
     #heberg{
         display: flex;
         flex-direction: row;
+        margin-top: 1.4%;
     }
 
     .ourheberg{
@@ -221,7 +226,7 @@
     
     .img_diapo{
         width: 105%;
-        height: auto;
+        height: 200px;
         margin-left: -2%;
     }
     
@@ -237,7 +242,7 @@
     .reserv{
         background-color: black;
         color: white;
-        width: 40%;
+        width: 30%;
         height: 12px;
         border-radius: 30px;
         opacity: 0.8;
@@ -270,6 +275,7 @@
     #heberg{
         display: flex;
         flex-direction: row;
+        margin-top: 1.4%;
     }
 
     .ourheberg{

@@ -13,7 +13,10 @@ export default function Hbb() {
       backgroundColor: '#dde0e6'
     }}>
       <Header/>
-      <Navbar/>
+      
+      <MediaQuery minWidth={1366} maxWidth={2560}>
+        <Navbar/>
+      </MediaQuery>
       <div className='content-with-margin'>    <h1 className='content-h1'><br /><br />Nos hébergements</h1><br />
             <MediaQuery minWidth={350} maxWidth={475}>
             <br /><br /><img src= {ImageM} alt="etudiant parfait" className='image1'/>

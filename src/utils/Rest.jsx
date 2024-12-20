@@ -18,7 +18,10 @@ export default function Restauration() {
       backgroundColor: '#dde0e6'
     }}>
       <Header/>
-      <Navbar/>
+
+      <MediaQuery minWidth={1366} maxWidth={2560}>
+        <Navbar/>
+      </MediaQuery>
         <MediaQuery minWidth={350} maxWidth={500}>
         <div className='content-with'>
         <h1>
