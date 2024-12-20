@@ -5,10 +5,11 @@ import Description from './footer';
 import Navbar from './Navbar';
 import { Link } from 'react-router-dom';
 import MediaQuery from 'react-responsive'
-
+import { motion } from 'framer-motion';
 export default function Hbb() {
 
   return (
+    <motion.div initial={{ x: '-100vw' }} animate={{ x: 0 }} transition={{ duration: 0.5 }} > 
     <div style={{
       backgroundColor: '#dde0e6'
     }}>
@@ -79,5 +80,6 @@ export default function Hbb() {
           </div>
           <Description/>
         </div>
+        </motion.div>
     );
 }

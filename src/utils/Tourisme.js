@@ -6,8 +6,10 @@ import './style/Tourisme.css'
 import map from '../assets/map.png'
 import MediaQuery from 'react-responsive';
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 function Tourisme() {
   return (
+    <motion.div initial={{ x: '-100vw' }} animate={{ x: 0 }} transition={{ duration: 0.5 }} >
     <div className="App">
       <Header/>
       <MediaQuery minWidth={1366} maxWidth={2560}>
@@ -86,6 +88,7 @@ function Tourisme() {
         </MediaQuery>
       <Description/>
     </div>
+    </motion.div>
   );
 }
 

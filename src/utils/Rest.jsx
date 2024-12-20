@@ -10,10 +10,12 @@ import Imagebi from './alex_work/assets/thé.jpg';
 import Imagebc from './alex_work/assets/Tapioca.jpg'; 
 import Imagebd from './alex_work/assets/Riz.jpg'; 
 import Imagebe from './alex_work/assets/Couscous.jpg'; 
+import { motion } from 'framer-motion';
 
 export default function Restauration() {
  
   return (
+    <motion.div initial={{ y: '-100vh' }} animate={{ y: 0 }} transition={{ type: 'spring', stiffness: 100 }} > 
     <div style={{
       backgroundColor: '#dde0e6'
     }}>
@@ -81,5 +83,6 @@ export default function Restauration() {
       </MediaQuery>
       <Description/>
     </div>
+    </motion.div>
   );
 }

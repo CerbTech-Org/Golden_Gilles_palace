@@ -10,6 +10,7 @@ import Hebergement from './hebergement';
 import Description from './footer';
 import Localistn from './local';
 import MediaQuery from 'react-responsive';
+import { motion } from 'framer-motion';
 // import { GoogleMap, useLoadScript, Marker } from '@react-google-maps/api';
 // const libraries = ['places'];
 // const mapContainerStyle = {
@@ -33,6 +34,7 @@ import MediaQuery from 'react-responsive';
 // const center = give_pos()
 function Home(){
         return(
+          <motion.div   initial={{ y: '-100vh' }} animate={{ y: 0 }} transition={{ type: 'spring', stiffness: 100 }} >
         <div className="App">
          <Header/>
          <MediaQuery minWidth={1366} maxWidth={2560}>
@@ -48,7 +50,8 @@ function Home(){
           <Localistn/>
          <Description/>
        </div>
-    )
+        </motion.div>
+        );
 }
 
 export default Home
