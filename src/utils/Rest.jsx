@@ -6,10 +6,10 @@ import Description from './footer';
 import Header from './Header';
 import './style/feature.css'
 import Resta from './restau';
-import Imagebi from './alex_work/assets/thé.jpg'; 
-import Imagebc from './alex_work/assets/Tapioca.jpg'; 
-import Imagebd from './alex_work/assets/Riz.jpg'; 
-import Imagebe from './alex_work/assets/Couscous.jpg'; 
+import Imagebi from '../assets/thé.jpg'; 
+import Imagebc from '../assets/Tapioca.jpg'; 
+import Imagebd from '../assets/Riz.jpg'; 
+import Imagebe from '../assets/Couscous.jpg'; 
 import { motion } from 'framer-motion';
 
 export default function Restauration() {

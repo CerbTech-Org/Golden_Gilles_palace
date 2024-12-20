@@ -1,5 +1,5 @@
 import React from 'react'
-import ImageM from './alex_work/assets/tomatoes.jpg'; 
+import ImageM from '../assets/tomatoes.jpg'; 
 import Header from './Header';
 import Description from './footer';
 import Navbar from './Navbar';
