@@ -46,24 +46,23 @@ function Hebergement(){
         <div>
         <div id='heberg'>
             <p className='heberg_text'>Nos hébergements</p>
-            <MediaQuery minWidth={1920} maxWidth={2560}>
+            <MediaQuery minWidth={1025} maxWidth={2560}>
                 <div id='arrow'>
                     <FontAwesomeIcon onClick={moins} color='white' icon={faArrowLeft} id='left'/>
                     <FontAwesomeIcon onClick={plus} color='white' icon={faArrowRight} id='right'/>
                 </div>
             </MediaQuery>
         </div>
-            <figure onTouchStart={handleTouchStart}
+        <figure onTouchStart={handleTouchStart}
             onTouchEnd={handleTouchEnd}>
                 <img  alt='img_diapo' className='img_diapo' src={diapo[num]}></img>
-                <figcaption className='border'></figcaption>
+                <div id='foot'>
+                    <p className='chambredouble'>CHAMBRE DOUBLE</p>
+                    <Link to="/Hebergement">
+                        <p className='reserv'>VOIR LES DETAILS</p>
+                    </Link>
+                </div>
             </figure>
-            <div id='foot'>
-                <p className='chambredouble'>CHAMBRE DOUBLE</p>
-                <Link to="/Hebergement">
-                    <p className='reserv'>VOIR LES DETAILS</p>
-                </Link>
-            </div>
         </div>
     )
 }

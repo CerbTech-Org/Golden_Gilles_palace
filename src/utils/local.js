@@ -78,7 +78,7 @@ function Localistn(){
                     </div>
                 </div>
             </MediaQuery>
-            <MediaQuery minWidth={1366} maxWidth={1919}>
+            <MediaQuery minWidth={1025} maxWidth={1919}>
                 <h1 style={{
                     marginRight: '60%',
                     fontSize: 30,
@@ -148,7 +148,7 @@ function Localistn(){
                     </div>
                 </div>
             </MediaQuery>
-            <MediaQuery minWidth={360} maxWidth={640}>
+            <MediaQuery minWidth={0} maxWidth={1024}>
             <h1 style={{
                     marginRight: '60%',
                     padding: 24,

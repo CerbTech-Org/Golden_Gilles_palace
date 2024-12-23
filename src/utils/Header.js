@@ -18,7 +18,7 @@ function Header(){
     }
     return(    
     <div id='up_navbar'>
-        <MediaQuery minWidth={1366} maxWidth={2560}>
+        <MediaQuery minWidth={1025} maxWidth={2560}>
             <div id='up_logo'>
                 <img src={logo} className='header' alt='header'></img>
             </div>
@@ -26,7 +26,7 @@ function Header(){
                 <img src={logo} className='profil' alt='header'></img>
             </div>
         </MediaQuery>
-        <MediaQuery minWidth={360} maxWidth={640}>
+        <MediaQuery minWidth={0} maxWidth={1024}>
             <div id='up_logo'>
                 <img src={logo} className='header' alt='header'></img>
             </div>

@@ -66,7 +66,7 @@
     }
 }
 
-@media screen and (min-width: 1366px) and (max-width: 1919px) {
+@media screen and (min-width: 1025px) and (max-width: 1919px) {
     .welcome_image{
         width: 65%;
         height: 650px;
@@ -74,11 +74,11 @@
         margin-top: 25px;
         border-radius: 35px;
     }
-    
+
     .chez{
         font-size: 65px;
         position: absolute;
-        margin-top: -35%;
+        margin-top: -40vw;
         margin-left: 17%;
         font-weight: 900;
         color: white;
@@ -89,7 +89,7 @@
         font-size: 130px;
         color: rgb(235, 193, 9);
         position: absolute;
-        margin-top: -30%;
+        margin-top: -35vw;
         margin-left: 16%;
     }
     
@@ -117,7 +117,7 @@
     .reserve{
         background-color: black;
         color: white;
-        width: 270px;
+        width: 20vw;
         height: 30px;
         border-radius: 30px;
         opacity: 0.8;
@@ -133,7 +133,7 @@
     }
 }
 
-@media screen and (min-width: 360px) and (max-width: 660px) {
+@media screen and (min-width: 0px) and (max-width: 1024px) {
     .welcome_image{
         width: 104%;
         height: auto;
@@ -143,15 +143,16 @@
     }
 
     .chez{
-        font-size: 20px;
+        font-size: 7vw;
         position: absolute;
         margin-top: -50%;
         color: white;
+        font-weight: 900;
     }
     
     .gille{
         font-weight: bolder;
-        font-size: 25px;
+        font-size: 9vw;
         color: rgb(235, 193, 9);
         position: absolute;
         margin-top: -40%;
@@ -159,20 +160,20 @@
     
     .golden_palace{
         font-weight: bolder;
-        font-size: 20px;
+        font-size: 5vw;
         color: rgb(235, 193, 9);
         font-family: 'Times New Roman', Times, serif;
         letter-spacing: 5px;
         transform: scale(.9, 1);
         position: absolute;
         margin-top: -30%;
-        margin-left: -3%;
+        margin-left: -2%;
     }
 
     .elegance{
         color: white;
         font-weight: bold;
-        font-size: 10px;
+        font-size: 3vw;
         position: absolute;
         margin-top: -20%;
     }

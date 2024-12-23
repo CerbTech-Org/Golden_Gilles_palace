@@ -12,7 +12,7 @@ function Tourisme() {
     <motion.div initial={{ x: '-100vw' }} animate={{ x: 0 }} transition={{ duration: 0.5 }} >
     <div className="App">
       <Header/>
-      <MediaQuery minWidth={1366} maxWidth={2560}>
+      <MediaQuery minWidth={1025} maxWidth={2560}>
         <Navbar/>
       </MediaQuery>
       <h1>Explorer nos merveilles locales</h1>
@@ -36,7 +36,7 @@ function Tourisme() {
             </div>
           </Link>
         </MediaQuery>
-        <MediaQuery minWidth={1366} maxWidth={1919}>
+        <MediaQuery minWidth={1025} maxWidth={1919}>
           <div>  
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.691935297836!2d2.3490732757924153!3d6.433602993557537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1024a900568fb735%3A0x1f0f06e1cd80419e!2sGilles%20Golden%20Palace!5e0!3m2!1sfr!2sbj!4v1734676828643!5m2!1sfr!2sbj"
                   width="80%" 
@@ -52,7 +52,7 @@ function Tourisme() {
             </div>
           </Link>
         </MediaQuery>
-        <MediaQuery minWidth={360} maxWidth={640}>
+        <MediaQuery minWidth={0} maxWidth={1024}>
           <div>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.691935297836!2d2.3490732757924153!3d6.433602993557537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1024a900568fb735%3A0x1f0f06e1cd80419e!2sGilles%20Golden%20Palace!5e0!3m2!1sfr!2sbj!4v1734676828643!5m2!1sfr!2sbj"
                         width="80%" 

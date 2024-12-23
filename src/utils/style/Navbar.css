@@ -10,16 +10,16 @@
         
         .Button {
             color: white;
-            margin-left: 25px;
+            margin-left: 1vw;
             text-decoration: underline;
-            font-size: 75;
+            font-size: 1vw;
             font-weight: bold;
         
         }
         
         .firstButton {
             font-weight: bold;
-            font-size: 75;
+            font-size: 1vw;
             color: white;
             text-decoration: underline;
             margin-left: 5cm;
@@ -34,7 +34,7 @@
         }
 }
 
-@media screen and (min-width: 1366px) and (max-width: 1919px) {
+@media screen and (min-width: 780px) and (max-width: 1919px) {
     #Nav {
         background-color:rgb(58, 49, 49);
         display: flex;
@@ -46,9 +46,10 @@
     
     .Button {
         color: white;
-        margin-left: 20px;
+        margin-left: 1vw;
         text-decoration: underline;
         font-weight: bold;
+        font-size: 1.3vw;
     
     }
     
@@ -57,6 +58,7 @@
         color: white;
         text-decoration: underline;
         margin-left: 2cm;
+        font-size: 1.3vw;
     }
     
     .Button:hover{
@@ -69,7 +71,7 @@
 
 }
 
-@media screen and (min-width: 360px) and (orientation: portrait) and (max-width: 640px) {
+@media screen and (min-width: 0px) and (orientation: portrait) and (max-width: 780px) {
     #Nav {
         background-color:rgb(58, 49, 49);
         display: flex;
@@ -106,7 +108,7 @@
     }
 }    
 
-@media screen and (min-width: 360px) and (max-width: 640px) and (orientation: landscape){
+@media screen and (min-width: 0px) and (max-width: 781px) and (orientation: landscape){
     #Nav {
         background-color:rgb(58, 49, 49);
         display: flex;

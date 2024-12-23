@@ -21,7 +21,7 @@ export default function Restauration() {
     }}>
       <Header/>
 
-      <MediaQuery minWidth={1366} maxWidth={2560}>
+      <MediaQuery minWidth={1024} maxWidth={2560}>
         <Navbar/>
       </MediaQuery>
         <MediaQuery minWidth={350} maxWidth={500}>
@@ -43,7 +43,7 @@ export default function Restauration() {
         </div>
       </div>
       </MediaQuery>
-      <MediaQuery minWidth={768} maxWidth={1024}>
+      <MediaQuery minWidth={768} maxWidth={1025}>
       <div className='content-margin'>
         <h1>
           <br /><br />Nos services de restauration

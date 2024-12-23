@@ -12,7 +12,7 @@ function Hmenu() {
   return (
     <div className="App">
       <Header/>
-      <MediaQuery minWidth={1366} maxWidth={2560}>
+      <MediaQuery minWidth={1025} maxWidth={2560}>
         <Navbar/>
       </MediaQuery>
       <h1>CHAMBRE DOUBLE</h1>
@@ -57,7 +57,7 @@ function Hmenu() {
         </MediaQuery>
 
         
-      <MediaQuery minWidth={1366} maxWidth={1919}>
+      <MediaQuery minWidth={1025} maxWidth={1919}>
         <div id="groupedImage" >
             <div id='inter' style={{
               width: 285
@@ -98,7 +98,7 @@ function Hmenu() {
         </MediaQuery>
 
 
-      <MediaQuery deviceWidth={360} minWidth={360}>
+      <MediaQuery deviceWidth={0} minWidth={1024}>
         <div style={{ 
             display: 'flex',
             flexDirection: 'row',

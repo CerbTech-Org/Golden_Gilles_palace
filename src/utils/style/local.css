@@ -42,12 +42,11 @@
     }
 }
 
-@media screen and (min-width: 1366px) and (max-width: 1919px){    
+@media screen and (min-width: 1025px) and (max-width: 1919px){    
     #the_number{
         display: flex;
         flex-direction: column;
     }
-
 
     .porpi{
         padding-left: 5px;
@@ -88,7 +87,7 @@
 }
 
 
-@media screen and (min-width: 360px) and (max-width: 640px) {
+@media screen and (min-width: 0px) and (max-width: 1024px) {
         #the_number{
         display: flex;
         flex-direction: column;
@@ -102,7 +101,7 @@
     .callme{
         background-color: black;
         color: white;
-        width: 270px;
+        width: 80vw;
         height: 30px;
         border-radius: 30px;
         opacity: 0.8;
@@ -118,7 +117,7 @@
     .mailme{
         background-color: black;
         color: white;
-        width: 270px;
+        width: 80vw;
         height: 30px;
         border-radius: 30px;
         opacity: 0.8;

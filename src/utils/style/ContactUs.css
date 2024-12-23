@@ -67,7 +67,7 @@
     }
 }
 
-@media screen and (min-width: 1366px) and (max-width: 1919px) {
+@media screen and (min-width: 1025px) and (max-width: 1919px) {
     .yellow{
         background-color: black;
         color: white;
@@ -128,7 +128,7 @@
     }
 }
 
-@media screen and (min-width: 360px) and (max-width: 660px)  and (orientation: portrait) {
+@media screen and (min-width: 0px) and (max-width: 1024px)  and (orientation: portrait) {
     .yellow{
         background-color: black;
         color: white;

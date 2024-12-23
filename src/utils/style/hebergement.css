@@ -1,7 +1,6 @@
 @media screen and (min-width: 1920px) and (max-width: 2560px){
     #heberg{
         display: flex;
-        margin-top: 1.4%;
     }
     
     #left{
@@ -41,40 +40,35 @@
     }
     
     .img_diapo{
-        width: 1100px;
+        width: 80vw;
         height: 720px;
         margin-left: -2%;
+        z-index: 0;
     }
-    
-    .border{
-        background-color: black;
-        opacity: 0.9;
-        height: 65px;
-        width: 1100px;
-        margin-left: 351px;
-        margin-top: -68px;
-    }
-    
+
     .reserv{
         background-color: black;
         color: white;
-        width: 270px;
-        height: 40px;
+        width: 10vw;
         border-radius: 30px;
         opacity: 0.8;
         text-align: center;
-        padding-top: 15px;
-        position: absolute;
-        margin-top: -4%;
-        margin-left: 20%;
+        margin-left: 30vw;
     }
-    
+
     .reserv:hover{
         background-color: rgb(145, 145, 26);
     }
-    
+
     #foot{
         display: flex;
+        background-color: black;
+        height: 10vh;
+        margin-left: 7%;
+        width: 80vw;
+        margin-top: -3%;
+        z-index: 1;
+        position: absolute;
     }
 
     .heberg_text{
@@ -83,17 +77,18 @@
         font-weight: 900;
         margin-top: 2%;
     }
+
     .chambredouble{
-            font-size: 40px;
-            font-weight: bold;
-            margin-left: 20%;
-            margin-top: -76px;
-            color: white;
-            z-index: 1;
+        font-size: 2vw;
+        font-weight: bold;
+        margin-left: 20%;
+        color: white;
+        height: 10px;
+        margin-bottom: 30px;
     }
 }
 
-@media screen and (min-width: 1366px) and (max-width: 1919px) {
+@media screen and (min-width: 1025px) and (max-width: 1919px) {
     #heberg{
         display: flex;
         margin-top: 1.4%;
@@ -113,16 +108,6 @@
         border-radius: 75px;
         margin-left: 20px;
     }
-    #right:hover{
-        background-color: rgb(218, 204, 204);
-        opacity: 0.7;
-        color: black;
-    }
-    #left:hover{
-        background-color: rgb(218, 204, 204);
-        opacity: 0.7;
-        color: black;
-    }
     #arrow{
         margin-top: 2%;
         margin-left: 35%;
@@ -133,7 +118,6 @@
         margin-left: -2%;
     }
     .border{
-        background-color: black;
         opacity: 0.9;
         height: 65px;
         width: 1100px;
@@ -146,11 +130,9 @@
         width: 270px;
         height: 40px;
         border-radius: 30px;
-        opacity: 0.8;
         text-align: center;
         padding-top: 15px;
         position: absolute;
-        margin-top: -6%;
         margin-left: 30%;
     }
     .reserv:hover{
@@ -158,6 +140,9 @@
     }
     #foot{
         display: flex;
+        background-color: black;
+        height: 10vh;
+        margin-left: 01%;
     }
     .heberg_text{
         margin-left: 200px;
@@ -168,18 +153,17 @@
     .chambredouble{
             font-size: 40px;
             font-weight: bold;
-            margin-left: 10%;
-            margin-top: -76px;
+            margin-top: 1%;
             color: white;
             z-index: 1;
     }
 }
 
-@media screen and (min-width: 360px) and (max-width: 640px) {
+@media screen and (min-width: 0px) and (max-width: 1024px) and (orientation: portrait){
     #heberg{
         display: flex;
         flex-direction: row;
-        margin-top: 1.4%;
+        margin-top: 1.8%;
     }
 
     .ourheberg{
@@ -188,78 +172,59 @@
         font-weight: bold;
     }
 
-    #left{
-        background-color: black;
-        opacity: 0.8;
-        width: 40%;
-        height: 30%;
-        border-radius: 75px;
+    .heberg_text{
+        font-size: 5vw;
+        font-weight: 900;
     }
-    
-    
-    #right{
-        background-color: black;
-        opacity: 0.8;    
-        width: 40%;
-        height: 30%;
-        border-radius: 75px;
-        margin-left: 20px;
-    }
-    
-    
-    #right:hover{
-        background-color: rgb(218, 204, 204);
-        opacity: 0.7;
-        color: black;
-    }
-    
-    #left:hover{
-        background-color: rgb(218, 204, 204);
-        opacity: 0.7;
-        color: black;
-    }
-    
+
     #arrow{
         margin-top: 10%;
         margin-left: 10%;
     }
-    
+
     .img_diapo{
-        width: 105%;
-        height: 200px;
-        margin-left: -2%;
+        width: 80vw;
+        height: 50vh;
+        margin-left: 2%;
     }
-    
+
     .border{
         background-color: black;
         opacity: 0.9;
         height: 32px;
         width: 105%;
         margin-left: -2%;
-        margin-top: -11%;
+        margin-top: -7%;
+        flex: 1 1 auto;
     }
-    
+
     .reserv{
         background-color: black;
         color: white;
-        width: 30%;
+        max-width: 100%;
+        width: auto;
         height: 12px;
         border-radius: 30px;
         opacity: 0.8;
         text-align: center;
         padding-top: 2px;
         position: absolute;
-        margin-left: 20%;
+        margin-left: 25vw;
         font-size: 10px;
     }
-    
+
     .reserv:hover{
         background-color: rgb(145, 145, 26);
     }
-    
+
     #foot{
         display: flex;
-        margin-top: -14%;
+        background-color: black;
+        height: 10vh;
+        width: 80vw;
+        margin-left: 3vw;
+        margin-top: -10vh;
+        position: absolute;
     }
 
     .chambredouble{
@@ -271,7 +236,7 @@
     }
 }
 
-@media screen and (min-width: 360px) and (max-width: 640px) and (orientation: landscape){
+@media screen and (min-width: 0px) and (max-width: 1024px) and (orientation: landscape){
     #heberg{
         display: flex;
         flex-direction: row;

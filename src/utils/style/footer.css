@@ -27,7 +27,7 @@
         margin-left: 150px;
     }
 }
-@media screen and (min-width: 1366px)  and (max-width: 1919px){
+@media screen and (min-width: 1025px)  and (max-width: 1919px){
     .logo {
         width: 35px;
         height: 25px;
@@ -56,7 +56,7 @@
         margin-left: 150px;
     }
 }
-@media screen and (min-width: 360px)  and (max-width: 660px){
+@media screen and (min-width: 0px)  and (max-width: 1024px){
     .logo {
         width: 35px;
         height: 25px;
