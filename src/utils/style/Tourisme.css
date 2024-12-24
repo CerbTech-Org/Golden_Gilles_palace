@@ -1,4 +1,4 @@
-@media screen and (min-width: 1920px) and ((max-width: 1920px)) {
+@media screen and (min-width: 1920px) and ((max-width: px)) {
     #my_guide{
         margin-left: 41%;
     }
@@ -16,7 +16,7 @@
     }
 
     .guide_contactor:hover{
-        background-color: rgb(145, 145, 26);
+        background-color: white;
     }
 }
 
@@ -38,7 +38,7 @@
     }
 
     .guide_contactor:hover{
-        background-color: rgb(145, 145, 26);
+        background-color:  rgb(235, 193, 9);;
     }
 }
 

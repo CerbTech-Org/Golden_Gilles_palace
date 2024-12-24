@@ -183,7 +183,7 @@ h1{
       }
 
       .overlay-button_two2:hover {
-        background-color: yellowgreen;
+        background-color: rgb(235, 193, 9);
       }
 
       .image1 {
@@ -193,7 +193,7 @@ h1{
         width: 97%;
       }    
       .overlay-button_two:hover {
-        background-color: yellowgreen;
+        background-color:  rgb(235, 193, 9);
       }
 
       .overlay_one {
@@ -369,6 +369,9 @@ h1{
         padding-top: 10px;
      }
 
+     .buonto:hover {
+      background-color: rgb(235, 193, 9);
+     }
      .tour {
       padding-right: 2710px;
      }
@@ -418,7 +421,7 @@ h1{
       }
 
      .bontt:hover {
-       background-color: #ff6347;
+       background-color:  rgb(235, 193, 9);
       }
 
       .goku {
@@ -477,7 +480,7 @@ h1{
        }
  
       .bontt1:hover {
-        background-color: #ff6347;
+        background-color:  rgb(235, 193, 9);
        }
  
        .goku1 {
@@ -538,7 +541,7 @@ h1{
        }
  
       .bontt2:hover {
-        background-color: #ff6347;
+        background-color:  rgb(235, 193, 9);
        }
  
        .goku2 {
