@@ -19,7 +19,7 @@ export default function Hbb() {
         <Navbar/>
       </MediaQuery>
       <div className='content-with-margin'>    <h1 className='content-h1'><br /><br />Nos hébergements</h1><br />
-            <MediaQuery minWidth={350} maxWidth={475}>
+            <MediaQuery minWidth={350} maxWidth={1700}>
             <br /><br /><img src= {ImageM} alt="etudiant parfait" className='image1'/>
             <br /> <br /> 
             <div className="overlay1"> 
@@ -29,7 +29,7 @@ export default function Hbb() {
                 </Link>
             </div>
             </MediaQuery>
-            <MediaQuery minWidth={476}>
+            <MediaQuery minWidth={1700}>
             <br /><br /><img src= {ImageM} alt="etudiant parfait" className='image'/>
             <br /> <br /> 
             <div className="overlay"> 

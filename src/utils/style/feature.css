@@ -29,7 +29,12 @@ h1{
 }
 
 .content-with-margin {
-  padding-left: 50px;
+  padding-left: 20px;
+}
+
+.content-h1{
+  text-align: left;
+  font-size: 125%;
 }
 
 .content-margin {
@@ -42,10 +47,6 @@ h1{
 }
 .content-with {
   padding-left: 10px;
-}
-
-.content-h1{
-    text-align: left;
 }
 
 .form-group {
@@ -113,34 +114,19 @@ h1{
     .image {
         justify-content: center;
         align-items: center;
-        margin-left: 50px;
-        width: 59%;
+        margin-left: 0.5%;
+        width: 69%;
     }    
     
-
-      .overlay {
-        display:flex;
-        background-color: black;
-        color: white;
-        width: 57.75%;
-        padding: 10px 0; 
-        box-sizing: border-box;
-        position: absolute;
-        text-align: center;
-        margin-left: 50px;
-        margin-top: -27px;
-        justify-content: space-between;
-      }
-      
-      .overlay-text {background-color: black; margin: 0; font-size: 16px; }
-      .overlay-button_one {       
+    .overlay-text {background-color: black; margin: 0; font-size: 16px; }
+    .overlay-button_one {       
         background-color: black;
         color: white;
         padding: 10px 20px;
         font-size: 30px;
         margin-left: 0px;
         border: none;
-      }
+    }
 
       .overlay-button_two {       
         background-color: black;
@@ -151,11 +137,24 @@ h1{
         border: none;
       }
 
+      .overlay {
+        display:flex;
+        background-color: black;
+        color: white;
+        width: 69.08%;
+        padding: 10px 0; 
+        box-sizing: border-box;
+        text-align: center;
+        margin-left: 0.5%;
+        margin-top: -27px;
+        justify-content: space-between;
+      }
+
       .overlay1 {
         display:flex;
         background-color: black;
         color: white;
-        width: 97.5%;
+        width: 97.05%;
         padding: 10px 0; 
         box-sizing: border-box;
         text-align: center;
