@@ -24,7 +24,7 @@ export default function Restauration() {
       <MediaQuery minWidth={1024} maxWidth={2560}>
         <Navbar/>
       </MediaQuery>
-        <MediaQuery minWidth={350} maxWidth={500}>
+        <MediaQuery minWidth={350} maxWidth={702}>
         <div className='content-with'>
         <h1>
           <br /><br />Nos services de restauration
@@ -43,27 +43,8 @@ export default function Restauration() {
         </div>
       </div>
       </MediaQuery>
-      <MediaQuery minWidth={768} maxWidth={1025}>
+      <MediaQuery minWidth={703}>
       <div className='content-margin'>
-        <h1>
-          <br /><br />Nos services de restauration
-        </h1>
-        <p className='gastronomie'>
-         Une gastronomie d’exception vous attend. Savourez des plats <br /> inspirés des traditions locales et internationales, conçus pour <br /> satisfaire les palais les plus exigeants
-        </p>
-        <br />
-        <br />
-        <br />
-        <div className='goku1'>
-        <Resta name = {Imagebi} titre1 = "Petit Déjeuner" titre2 = "Thé / Café avec assortiments de viennoiseries"/>
-        <Resta name = {Imagebc} titre1 = "Goûter" titre2 = "Tapioca au lait, mangue et coco"/>
-        <Resta name = {Imagebd} titre1 = "Déjeuner" titre2 = "Riz Jollof + Légumineuses"/>
-        <Resta name = {Imagebe} titre1 = "Diners" titre2 = "Couscous au poulet et aux légumes"/>
-        </div>
-      </div>
-      </MediaQuery>
-      <MediaQuery minWidth={1025}>
-      <div className='content-with-margin'>
         <h1>
           <br /><br />Nos services de restauration
         </h1>

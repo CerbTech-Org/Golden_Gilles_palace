@@ -7,21 +7,7 @@ import './style/feature.css'
 function Resta ({name, titre1, titre2}) {
   return (
     <div> 
-    <MediaQuery minWidth = {768} maxWidth={1024}>
-    <div className="cntr1"> 
-        <div className="hdr1"> 
-            <h1>{titre1}</h1> 
-            </div>
-        <div> 
-        <img src= {name} alt="etudiant parfait" className='ipie1'/>
-        </div> 
-            <div className="dsptn1"> 
-                <p>{titre2}</p>
-            </div> 
-        <button className="bontt1">Commander maintenant</button> 
-    </div>
-    </MediaQuery>
-    <MediaQuery minWidth = {1025}>
+    <MediaQuery minWidth = {702}>
     <div className="cntr"> 
         <div className="hdr"> 
             <h1>{titre1}</h1> 
@@ -35,7 +21,7 @@ function Resta ({name, titre1, titre2}) {
         <button className="bontt">Commander maintenant</button> 
     </div>
     </MediaQuery>
-    <MediaQuery minWidth = {350} maxWidth={500}>
+    <MediaQuery minWidth = {350} maxWidth={701}>
     <div className="cntr2"> 
         <div className="hdr2"> 
             <h1>{titre1}</h1> 
