@@ -37,6 +37,10 @@
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1919px) {
+    .linkth{
+        text-decoration-color: white;
+    }
+   
     #Nav {
         background-color:rgb(58, 49, 49);
         display: flex;

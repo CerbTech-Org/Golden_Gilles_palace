@@ -15,7 +15,7 @@ export default function Hbb() {
     }}>
       <Header/>
       
-      <MediaQuery minWidth={1366} maxWidth={2560}>
+      <MediaQuery minWidth={1024} maxWidth={2560}>
         <Navbar/>
       </MediaQuery>
       <div className='content-with-margin'>    <h1 className='content-h1'><br /><br />Nos hébergements</h1><br />

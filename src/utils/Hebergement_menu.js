@@ -1,4 +1,4 @@
-import '../App.css';
+  import '../App.css';
 import Navbar from './Navbar'
 import Header from './Header';
 import Description from './footer';
@@ -21,11 +21,11 @@ function Hmenu() {
 
         
       <MediaQuery minWidth={1024} maxWidth={2560}>
-        <div id="groupedImage" >
+        <div id="groupedImage" >  
             <div id='inter' style={{
               width: '80vw',
             }}>
-              <img alt='room' src={img_o} style={{
+              <img    alt='room' src={img_o} style={{
                 height: '40vh',
                 width: '25vw'
               }}></img>
@@ -62,8 +62,8 @@ function Hmenu() {
         </MediaQuery>
 
 
-      <MediaQuery deviceWidth={0} minWidth={1023}>
-        <div style={{ 
+      <MediaQuery minWidth={0} maxWidth={1023}>
+      <div style={{ 
             display: 'flex',
             flexDirection: 'row',
             }} >
@@ -74,12 +74,12 @@ function Hmenu() {
               marginLeft: '20%'
             }}>
               <img alt='room' src={img_o} style={{
-                height: 90,
-                width: 100
+                height: '12vh',
+                width: '28vw'
               }}></img>
               <img alt='room' src={img_tse} style={{
-                height: 90,
-                width: 100,
+                height: '11vh',
+                width: '28vw',
                 marginTop: 10
               }}></img>
             </div>
@@ -90,13 +90,13 @@ function Hmenu() {
               marginLeft: '-20%'
             }}>
               <img style={{
-                width: 100,
-                height: 100,
+                width: '30vw',
+                height: '13vh',
             }} src={img_ts} alt='room'></img>
               <img style={{
                 marginTop: 10,
-                width: 100,
-                height: 80
+                width: '30vw',
+                height: '10vh'
             }}
             src={img_tf} alt='room'></img>
             </div>

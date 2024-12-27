@@ -168,15 +168,18 @@ function Localistn(){
                     </iframe>
                     <div style={{
                         display: 'flex',
-                        flexDirection: 'column'
+                        flexDirection: 'column',
+                        width: '90%',
+                        marginLeft: 'auto',
+                        marginRight: 'auto'
                     }}>
                     <div style={{
                             display: 'flex',
                             marginTop: '1vh'
                         }}>
                             <img style={{
-                                width: '4.5vw',
-                                height: '4vh'
+                                width: 20,
+                                height: 20  
                             }} src={local} alt='localisation'></img>
                             <p className='porpi'>Calavi, Rue en face de<br/>PADME ADJAKE à côté de Terre </p>
                         </div>
@@ -184,8 +187,8 @@ function Localistn(){
                             display: 'flex',
                         }}>
                             <img style={{
-                                width: '4.5vw',
-                                height: '4vh'
+                                width: 20,
+                                height: 20
                             }} src={phone} alt='phone'></img>
                             <p className='porpi'>+229 0196327060 <br/> +229 0140464663</p>
                         </div>
@@ -200,8 +203,8 @@ function Localistn(){
                             display: 'flex',
                         }}>
                             <img style={{
-                                width: '4.5vw',
-                                height: '4vh'
+                                width: 20,
+                                height: 20
                             }} src={messa} alt='mail'></img>
                             <p className='porpi'>gillesdohou@gmail.com</p>
                         </div>

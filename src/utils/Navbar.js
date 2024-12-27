@@ -42,19 +42,19 @@ function Navbar()
       });
     return(
         <div id="Nav" onLoad={() => Loading()}>
-            <Link to={"/"}>
+            <Link className="linkth" to={"/"}>
                 <p id="acc" className='firstButton'>Accueil</p>
             </Link>
-            <Link to={"/Hebergement"}>
+            <Link  className="linkth" to={"/Hebergement"}>
                 <p id="Heber" className='Button'>Hébergement</p>
             </Link>
-            <Link to={"/Restauration"}> 
+            <Link  className="linkth" to={"/Restauration"}> 
                 <p className='Button' id="Restr">Restauration</p>
             </Link>
-            <Link to={"/tourisme"}>
+            <Link  className="linkth" to={"/tourisme"}>
             <p className='Button' id="Trisme">Tourisme</p>
             </Link>
-            <Link to={"/contact"}>
+            <Link  className="linkth" to={"/contact"}>
                 <p className='Button' id="Contct">Contact</p>
             </Link>
         </div>

@@ -101,7 +101,7 @@
     .callme{
         background-color: black;
         color: white;
-        width: 80vw;
+        width: 50vw;
         height: 4.4vh;
         border-radius: 30px;
         opacity: 0.8;
@@ -109,6 +109,8 @@
         padding-top: 2vh;
         margin-top: 0px;
         padding-bottom: 1vh;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .callme:hover{
@@ -118,7 +120,7 @@
     .mailme{
         background-color: black;
         color: white;
-        width: 80vw;
+        width: 50vw;
         height: 4.4vh;
         border-radius: 30px;
         opacity: 0.8;
@@ -126,6 +128,8 @@
         padding-top: 2vh;
         margin-top: 0px;
         padding-bottom: 1vh;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .candl{
