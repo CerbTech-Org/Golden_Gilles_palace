@@ -37,7 +37,7 @@ function Home(){
           <motion.div   initial={{ y: '-100vh' }} animate={{ y: 0 }} transition={{ type: 'spring', stiffness: 100 }} >
         <div className="App">
          <Header/>
-         <MediaQuery minWidth={1025} maxWidth={2560}>
+         <MediaQuery minWidth={1024} maxWidth={2560}>
             <Navbar/>
          </MediaQuery>
          <Welcome/>

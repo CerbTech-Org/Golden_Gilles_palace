@@ -3,32 +3,6 @@
   background-color: #dde0e6;
 }
 
-#map {
-  height: 400px;
-  width: 100%;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
 .App-link {
   color: #61dafb;
@@ -43,14 +17,27 @@
   }
 }
 
-@media screen and (min-width: 1920px) and (max-width:2560px){
+@media screen and (min-width: 1920px){
   #cardSystem{
     display: flex;
+    width: 100%;
   }
 }
 
-@media screen and (min-width: 1366px) and (max-width:1919px){
+@media screen and (min-width: 1024px) and (max-width:1919px){
   #cardSystem{
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width:1023px){
+  #cardSystem{
+    display: flex;
+    flex-direction: column;
+    width: 10 0%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

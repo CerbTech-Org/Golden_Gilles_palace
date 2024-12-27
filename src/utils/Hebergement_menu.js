@@ -12,75 +12,39 @@ function Hmenu() {
   return (
     <div className="App">
       <Header/>
-      <MediaQuery minWidth={1025} maxWidth={2560}>
+      <MediaQuery minWidth={1024} maxWidth={2560}>
         <Navbar/>
       </MediaQuery>
       <h1>CHAMBRE DOUBLE</h1>
-      <MediaQuery minWidth={1920} maxWidth={2560}>
-        <div id="groupedImage" >
-            <div id='inter' style={{
-              width: 285
-            }}>
-              <img alt='room' src={img_o} style={{
-                height: 310,
-                width: 260
-              }}></img>
-              <img alt='room' src={img_tse} style={{
-                height: 280,
-                width: 260,
-                marginTop: 10
-              }}></img>
-            </div>
-            <div  id="inter2">
-              <img style={{
-                width: 500,
-                height: 330,
-            }} src={img_ts} alt='room'></img>
-              <img style={{
-                marginTop: 10,
-                width: 500,
-                height: 260
-            }}
-            src={img_tf} alt='room'></img>
-            </div>
-            <div id="detAdes">
-              <h1>Détails et description</h1>
-              <p>Nous disposons d'une grande variété chambre, <br/> votre bonheur notre priorité</p>
-            </div>
-        </div>
-        <div>
-        <h1>PAS SATISFAIT ?</h1>
-        <div id="my_guide">
-            <p className='guide_contactor'>CONTACTER UN GUIDE</p>
-        </div>
-        </div>
-        </MediaQuery>
+      {/* <MediaQuery minWidth={1920} maxWidth={2560}>
+        </MediaQuery> */}
 
         
-      <MediaQuery minWidth={1025} maxWidth={1919}>
+      <MediaQuery minWidth={1024} maxWidth={2560}>
         <div id="groupedImage" >
             <div id='inter' style={{
-              width: 285
+              width: '80vw',
             }}>
               <img alt='room' src={img_o} style={{
-                height: 310,
-                width: 260
+                height: '40vh',
+                width: '25vw'
               }}></img>
               <img alt='room' src={img_tse} style={{
-                height: 280,
-                width: 260,
+                height: '30vh',
+                width: '25vw',
                 marginTop: 10
               }}></img>
             </div>
             <div  id="inter2">
               <img style={{
-                width: 500,
-                height: 330,
+
+                width: '45vw',
+                height: '40vh',
             }} src={img_ts} alt='room'></img>
               <img style={{
                 marginTop: 10,
-                width: 500,
-                height: 260
+                width: '45vw',
+                height: '30vh'
             }}
             src={img_tf} alt='room'></img>
             </div>
@@ -98,7 +62,7 @@ function Hmenu() {
         </MediaQuery>
 
 
-      <MediaQuery deviceWidth={0} minWidth={1024}>
+      <MediaQuery deviceWidth={0} minWidth={1023}>
         <div style={{ 
             display: 'flex',
             flexDirection: 'row',

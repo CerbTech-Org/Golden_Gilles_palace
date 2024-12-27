@@ -1,7 +1,29 @@
-#text{
-    margin-left: 7%;
+
+@media screen and (min-width: 0px) and (max-width: 1023px) {
+    .line{
+        margin-top: 3vh;
+        font-size: 2.5vw;
+        margin-left: 12vw;
+    }
+    
+    .tit{
+        margin-top: 3vh;
+        font-size: 4vw;
+        margin-left: 12vw;
+        font-weight: 900;
+    }
 }
 
-.line{
-    margin-top: 20px;
+
+@media screen and (min-width: 1024px) and (max-width: 1919px) {
+    .line{
+        font-size: 15px;
+        margin-left: 12vw;
+    }
+    
+    .tit{
+        font-size: 15px;
+        margin-left: 12vw;
+        font-weight: 900;
+    }
 }

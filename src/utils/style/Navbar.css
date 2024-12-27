@@ -3,18 +3,18 @@
             background-color:rgb(58, 49, 49);
             display: flex;
             border-radius: 35px;
-            width: 45%;
+            width: 50vw;
             text-align: center;
-            margin-left: 25%;
+            margin-left: auto;
+            margin-right: auto;
         }
-        
+    
         .Button {
             color: white;
             margin-left: 1vw;
             text-decoration: underline;
             font-size: 1vw;
-            font-weight: bold;
-        
+            font-weight: bold;    
         }
         
         .firstButton {
@@ -22,7 +22,9 @@
             font-size: 1vw;
             color: white;
             text-decoration: underline;
-            margin-left: 5cm;
+            margin-left: auto;
+            margin-right: auto;
+            margin-left: 10vw;
         }
         
         .Button:hover{
@@ -34,7 +36,7 @@
         }
 }
 
-@media screen and (min-width: 780px) and (max-width: 1919px) {
+@media screen and (min-width: 1024px) and (max-width: 1919px) {
     #Nav {
         background-color:rgb(58, 49, 49);
         display: flex;
@@ -71,7 +73,7 @@
 
 }
 
-@media screen and (min-width: 0px) and (orientation: portrait) and (max-width: 780px) {
+@media screen and (min-width: 0px) and (max-width: 1023px) {
     #Nav {
         background-color:rgb(58, 49, 49);
         display: flex;
@@ -80,6 +82,8 @@
         text-align: center;
         margin-left: 5%;
         font-size: 2px;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .Button {
@@ -97,43 +101,6 @@
         color: white;
         text-decoration: underline;
         margin-left: 5%;
-    }
-    
-    .Button:hover{
-        color: yellow;
-    }
-    
-    .firstButton:hover{
-        color: yellow;
-    }
-}    
-
-@media screen and (min-width: 0px) and (max-width: 781px) and (orientation: landscape){
-    #Nav {
-        background-color:rgb(58, 49, 49);
-        display: flex;
-        border-radius: 35px;
-        width: 90%;
-        text-align: center;
-        margin-left: 5%;
-        font-size: 2px;
-    }
-    
-    .Button {
-        color: white;
-        margin-left: 30px;
-        text-decoration: underline;
-        font-size: 10px;
-        font-weight: bold;
-    
-    }
-    
-    .firstButton {
-        font-weight: bold;
-        font-size: 10px;
-        color: white;
-        text-decoration: underline;
-        margin-left: 95px;
     }
     
     .Button:hover{

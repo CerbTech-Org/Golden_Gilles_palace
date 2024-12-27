@@ -13,7 +13,7 @@ function Card({title, description, image_src, margin_left, margin_top}){
             <img src={image_src} className='logoImg' alt='logoImg'></img>
             <p className='title'>{title}</p>
             <p className='description'>{description}</p>
-            <Link to={whe}>
+            <Link to={whe} className='linked'>
                 <p id="det" className='detail'>PLUS DE DETAILS</p>
             </Link>
         </div>

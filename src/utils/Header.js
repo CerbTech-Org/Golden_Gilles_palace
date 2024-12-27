@@ -18,7 +18,7 @@ function Header(){
     }
     return(    
     <div id='up_navbar'>
-        <MediaQuery minWidth={1025} maxWidth={2560}>
+        <MediaQuery minWidth={1024} maxWidth={2560}>
             <div id='up_logo'>
                 <img src={logo} className='header' alt='header'></img>
             </div>
@@ -26,7 +26,7 @@ function Header(){
                 <img src={logo} className='profil' alt='header'></img>
             </div>
         </MediaQuery>
-        <MediaQuery minWidth={0} maxWidth={1024}>
+        <MediaQuery minWidth={0} maxWidth={1023}>
             <div id='up_logo'>
                 <img src={logo} className='header' alt='header'></img>
             </div>
@@ -40,9 +40,10 @@ function Header(){
                 <div style={{
                     position: 'absolute',
                     marginLeft: '-25%',
-                    marginTop: '13%',
+                    marginTop: '55px',
                     backgroundColor: 'white',
                     width: '40%',
+                    zIndex: 1
                 }}>
                     <Link to="/" className='hamtext'>
                        <p className='menoption' onClick={passflase}>Accueil</p>

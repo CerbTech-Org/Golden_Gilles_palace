@@ -78,7 +78,7 @@ function Localistn(){
                     </div>
                 </div>
             </MediaQuery>
-            <MediaQuery minWidth={1025} maxWidth={1919}>
+            <MediaQuery minWidth={1024} maxWidth={1919}>
                 <h1 style={{
                     marginRight: '60%',
                     fontSize: 30,
@@ -148,12 +148,8 @@ function Localistn(){
                     </div>
                 </div>
             </MediaQuery>
-            <MediaQuery minWidth={0} maxWidth={1024}>
-            <h1 style={{
-                    marginRight: '60%',
-                    padding: 24,
-                    fontSize: 30
-                }}>Contact et Localisation</h1>
+            <MediaQuery minWidth={0} maxWidth={1023}>
+            <h1 className='candl'>Contact et Localisation</h1>
                 <div style={{
                     display: 'flex',
                     flexDirection: 'column',
@@ -175,11 +171,12 @@ function Localistn(){
                         flexDirection: 'column'
                     }}>
                     <div style={{
-                            display: 'flex'
+                            display: 'flex',
+                            marginTop: '1vh'
                         }}>
                             <img style={{
-                                width: 25,
-                                height: 25
+                                width: '4.5vw',
+                                height: '4vh'
                             }} src={local} alt='localisation'></img>
                             <p className='porpi'>Calavi, Rue en face de<br/>PADME ADJAKE à côté de Terre </p>
                         </div>
@@ -187,8 +184,8 @@ function Localistn(){
                             display: 'flex',
                         }}>
                             <img style={{
-                                width: 25,
-                                height: 25
+                                width: '4.5vw',
+                                height: '4vh'
                             }} src={phone} alt='phone'></img>
                             <p className='porpi'>+229 0196327060 <br/> +229 0140464663</p>
                         </div>
@@ -203,8 +200,8 @@ function Localistn(){
                             display: 'flex',
                         }}>
                             <img style={{
-                                width: 25,
-                                height: 25
+                                width: '4.5vw',
+                                height: '4vh'
                             }} src={messa} alt='mail'></img>
                             <p className='porpi'>gillesdohou@gmail.com</p>
                         </div>

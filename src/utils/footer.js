@@ -33,17 +33,17 @@ function Description(){
                 <img src={linkedin} alt="linkedin logo" className='logo'></img>
             </Link>
             </div>
-            <Text Title="Copyrights © tous droits réservés" el_one="Avec Gilles Golden Palace votre satisafaction est une priorité" el_two="" el_three="" el_four="" el_five=""></Text>
+            <Text Title="Copyrights © tous droits réservés" el_one="Avec Gilles Golden Palace votre satisfaction est une priorité" el_two="" el_three="" el_four="" el_five=""></Text>
             <div id="contactnous">
-                <h1>Contactez-nous</h1>
+                <h1 id="contactez">Contactez-nous</h1>
                 <div style={{
                     display: 'flex',
                     marginTop: '2%  '
 
                 }}>
                     <img style={{
-                        width: 25,
-                        height: 25,
+                        width: '5%',
+                        height: '5%',
                     }}  src={messa} alt='mail'></img>
                     <p className='porpi'>gillesdohou@gmail.com</p>
                 </div>  
@@ -52,8 +52,8 @@ function Description(){
                     marginTop: '2%'
                 }}>
                     <img style={{
-                        width: 25,
-                        height: 25,
+                        width: '5%',
+                        height: '5%',
                         marginTop: "-1%"
                     }} src={phone} alt='phone'></img>
                     <p className='porpi'>+229 00196327060/ +229 0140464663</p>
@@ -63,9 +63,9 @@ function Description(){
                     marginTop: '2%'
                 }}>
                     <img style={{
-                        width: 25,
-                        height: 25,
-                        marginBottom: 5
+                        width: '5%',
+                        height: '5%',
+                        marginBottom: '2%'
                     }} src={local} alt='localisation'></img>
                     <p className='porpi'>Calavi, Rue en face de<br/>PADME ADJAKE à côté de Terre </p>
                 </div>

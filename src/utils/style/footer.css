@@ -10,24 +10,27 @@
         height: 65px;
         margin-left: 25px;
     }
-    
+
     #Description{
         text-align: left;
         display: flex;
         background-color: white;
-        margin-top: 80px;
+        margin-top: 5vh;
         position: relative;
+        height: auto;
     }
-    
+
     #Inter{
         margin-left: 12%;
+        width: 40%;
     }
 
     #contactnous{
-        margin-left: 150px;
+        width: 40vw;
+        margin-left: 20vw;
     }
 }
-@media screen and (min-width: 1025px)  and (max-width: 1919px){
+@media screen and (min-width: 1024px)  and (max-width: 1919px){
     .logo {
         width: 35px;
         height: 25px;
@@ -56,7 +59,7 @@
         margin-left: 150px;
     }
 }
-@media screen and (min-width: 0px)  and (max-width: 1024px){
+@media screen and (min-width: 0px)  and (max-width: 1023px){
     .logo {
         width: 35px;
         height: 25px;
@@ -64,8 +67,8 @@
     }
     
     .golden_logo{
-        width: 75px;
-        height: 65px;
+        width: 15vw;
+        height: 10vh;
         margin-left: 25px;
     }
     
@@ -73,16 +76,17 @@
         text-align: left;
         display: flex;
         background-color: white;
-        margin-top: 80px;
+        margin-top: 8vh;
         position: relative;
         flex-direction: column;
+        font-size: 2.5vw;
     }
     
     #Inter{
-        margin-left: 12%;
+        margin-left: 12vw;
     }
 
     #contactnous{
-        margin-left: 8%;
+        margin-left: 12vw;
     }
 }
