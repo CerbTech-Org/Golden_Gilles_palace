@@ -1,7 +1,7 @@
 @media screen and (min-width: 1920px){
     .welcome_image{
-        width: 65%;
-        height: 650px;
+        width: 100%;
+        height: 100%;
         margin-left: -4%;
         margin-top: 25px;
         border-radius: 35px;
@@ -67,8 +67,8 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1919px) {
     .welcome_image{
-        width: 65%;
-        height: 650px;
+        width: 100%;
+        height: 100%;
         margin-left: -4%;
         margin-top: 25px;
         border-radius: 35px;
@@ -134,8 +134,8 @@
 
 @media screen and (min-width: 0px) and (max-width: 1023px) {
     .welcome_image{
-        width: 104%;
-        height: auto;
+        width: 100%;
+        height: 100%;
         margin-left: -4%;
         margin-top: 2vh;
         border-radius: 35px;
