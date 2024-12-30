@@ -32,15 +32,6 @@ export default function Restauration() {
         <p className='gastronomie'>
         Une gastronomie d’exception vous attend. Savourez des plats <br /> inspirés des traditions locales et internationales, conçus pour <br /> satisfaire les palais les plus exigeants
         </p>
-        <br />
-        <br />
-        <br />
-        <div className='goku2'>
-        <Resta name = {Imagebi} titre1 = "Petit Déjeuner" titre2 = "Thé / Café avec assortiments de viennoiseries"/>
-        <Resta name = {Imagebc} titre1 = "Goûter" titre2 = "Tapioca au lait, mangue et coco"/>
-        <Resta name = {Imagebd} titre1 = "Déjeuner" titre2 = "Riz Jollof + Légumineuses"/>
-        <Resta name = {Imagebe} titre1 = "Diners" titre2 = "Couscous au poulet et aux légumes"/>
-        </div>
       </div>
       </MediaQuery>
       <MediaQuery minWidth={703}>
@@ -51,15 +42,6 @@ export default function Restauration() {
         <p className='gastronomie'>
          Une gastronomie d’exception vous attend. Savourez des plats <br /> inspirés des traditions locales et internationales, conçus pour <br /> satisfaire les palais les plus exigeants
         </p>
-        <br />
-        <br />
-        <br />
-        <div className='goku'>
-        <Resta name = {Imagebi} titre1 = "Petit Déjeuner" titre2 = "Thé / Café avec assortiments de viennoiseries"/>
-        <Resta name = {Imagebc} titre1 = "Goûter" titre2 = "Tapioca au lait, mangue et coco"/>
-        <Resta name = {Imagebd} titre1 = "Déjeuner" titre2 = "Riz Jollof + Légumineuses"/>
-        <Resta name = {Imagebe} titre1 = "Diners" titre2 = "Couscous au poulet et aux légumes"/>
-        </div>
       </div>
       </MediaQuery>
       <Description/>

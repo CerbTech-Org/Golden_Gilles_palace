@@ -28,11 +28,11 @@
         }
         
         .Button:hover{
-            color: yellow;
+            color: rgb(235, 193, 9);
         }
         
         .firstButton:hover{
-            color: yellow;
+            color:rgb(235, 193, 9);
         }
 }
 
@@ -68,11 +68,11 @@
     }
     
     .Button:hover{
-        color: yellow;
+        color: rgb(235, 193, 9);
     }
     
     .firstButton:hover{
-        color: yellow;
+        color: rgb(235, 193, 9);
     }
 
 }
@@ -108,10 +108,10 @@
     }
     
     .Button:hover{
-        color: yellow;
+        color: rgb(235, 193, 9);
     }
     
     .firstButton:hover{
-        color: yellow;
+        color: rgb(235, 193, 9);
     }
 }    
