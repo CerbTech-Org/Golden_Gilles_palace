@@ -12,16 +12,16 @@
         .Button {
             color: white;
             margin-left: 1vw;
-            text-decoration: underline;
             font-size: 1vw;
-            font-weight: bold;    
+            font-weight: bold;   
+
         }
         
         .firstButton {
             font-weight: bold;
             font-size: 1vw;
             color: white;
-            text-decoration: underline;
+            text-decoration: none   ;
             margin-left: auto;
             margin-right: auto;
             margin-left: 10vw;
@@ -34,11 +34,16 @@
         .firstButton:hover{
             color:rgb(235, 193, 9);
         }
+
+        .linkth{
+            text-decoration: none;
+        }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1919px) {
     .linkth{
         text-decoration-color: white;
+        text-decoration: none;
     }
    
     #Nav {
@@ -53,7 +58,6 @@
     .Button {
         color: white;
         margin-left: 1vw;
-        text-decoration: underline;
         font-weight: bold;
         font-size: 1.3vw;
     
@@ -62,7 +66,6 @@
     .firstButton {
         font-weight: bold;
         color: white;
-        text-decoration: underline;
         margin-left: 2cm;
         font-size: 1.3vw;
     }
@@ -88,6 +91,10 @@
         font-size: 2px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .linkth{
+        text-decoration: none;
     }
     
     .Button {
