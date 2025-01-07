@@ -71,8 +71,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 ### Commandes pour installer les dependances nécessaires
+Rester à la racine du repo et entrer les commandes suivantes :  
+
 npm install && npm install @fortawesome/react-fontawesome
 npm install react-router-dom framer-motion
 
 ### Commandes pour lancer le site 
+Toujours à la racine du repo entrer la commande suivante :
+
 npm run start
